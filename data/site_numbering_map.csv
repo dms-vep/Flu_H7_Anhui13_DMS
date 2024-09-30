@@ -1,507 +1,507 @@
-sequential_site,reference_site,sequential_wt,region,rbs_region
-1,9,D,HA1,outside RBS
-2,10,K,HA1,outside RBS
-3,11,I,HA1,outside RBS
-4,12,C,HA1,outside RBS
-5,13,L,HA1,outside RBS
-6,14,G,HA1,outside RBS
-7,15,H,HA1,outside RBS
-8,16,H,HA1,outside RBS
-9,17,A,HA1,outside RBS
-10,18,V,HA1,outside RBS
-11,19,S,HA1,outside RBS
-12,20,N,HA1,outside RBS
-13,21,G,HA1,outside RBS
-14,22,T,HA1,outside RBS
-15,23,K,HA1,outside RBS
-16,24,V,HA1,outside RBS
-17,25,N,HA1,outside RBS
-18,26,T,HA1,outside RBS
-19,27,L,HA1,outside RBS
-20,28,T,HA1,outside RBS
-21,29,E,HA1,outside RBS
-22,30,R,HA1,outside RBS
-23,31,G,HA1,outside RBS
-24,32,V,HA1,outside RBS
-25,33,E,HA1,outside RBS
-26,34,V,HA1,outside RBS
-27,35,V,HA1,outside RBS
-28,36,N,HA1,outside RBS
-29,37,A,HA1,outside RBS
-30,38,T,HA1,outside RBS
-31,39,E,epitope-C,outside RBS
-32,40,T,epitope-C,outside RBS
-33,41,V,HA1,outside RBS
-34,42,E,HA1,outside RBS
-35,43,R,epitope-C,outside RBS
-36,44,T,epitope-C,outside RBS
-37,45,N,HA1,outside RBS
-38,46,I,HA1,outside RBS
-39,47,P,HA1,outside RBS
-40,48,R,HA1,outside RBS
-41,49,I,HA1,outside RBS
-42,50,C,HA1,outside RBS
-43,51,S,HA1,outside RBS
-44,52,K,epitope-E,outside RBS
-45,53,G,epitope-E,outside RBS
-46,54,K,HA1,outside RBS
-47,55,R,HA1,outside RBS
-48,56,T,HA1,outside RBS
-49,57,V,HA1,outside RBS
-50,58,D,HA1,outside RBS
-51,59,L,HA1,outside RBS
-52,60,G,HA1,outside RBS
-53,61,Q,HA1,outside RBS
-54,62,C,HA1,outside RBS
-55,63,G,HA1,outside RBS
-56,64,L,HA1,outside RBS
-57,65,L,epitope-E,outside RBS
-58,66,G,HA1,outside RBS
-59,67,T,epitope-E,outside RBS
-60,68,I,epitope-E,outside RBS
-61,69,T,epitope-E,outside RBS
-62,70,G,epitope-E,outside RBS
-63,71,P,epitope-E,outside RBS
-64,72,P,epitope-E,outside RBS
-65,73,Q,HA1,outside RBS
-66,74,C,HA1,outside RBS
-67,75,D,HA1,outside RBS
-68,76,Q,HA1,outside RBS
-69,77,F,HA1,outside RBS
-70,78,L,HA1,outside RBS
-71,79,E,HA1,outside RBS
-72,80,F,epitope-E,outside RBS
-73,81,S,epitope-E,outside RBS
-74,82,A,epitope-E,outside RBS
-75,83,D,HA1,outside RBS
-76,84,L,HA1,outside RBS
-77,85,I,HA1,outside RBS
-78,86,I,HA1,outside RBS
-79,87,E,HA1,outside RBS
-80,88,R,HA1,RBS base
-81,89,R,HA1,outside RBS
-82,90,E,HA1,outside RBS
-83,91,G,HA1,outside RBS
-84,92,S,HA1,outside RBS
-85,93,D,HA1,outside RBS
-86,94,V,HA1,outside RBS
-87,95,C,HA1,outside RBS
-88,96,Y,HA1,outside RBS
-89,97,P,HA1,outside RBS
-90,98,G,HA1,outside RBS
-91,99,K,HA1,outside RBS
-92,100,F,HA1,outside RBS
-93,101,V,HA1,outside RBS
-94,102,N,HA1,outside RBS
-95,103,E,HA1,outside RBS
-96,104,E,HA1,outside RBS
-97,105,A,HA1,outside RBS
-98,106,L,HA1,outside RBS
-99,107,R,HA1,outside RBS
-100,108,Q,HA1,outside RBS
-101,109,I,HA1,outside RBS
-102,110,L,HA1,outside RBS
-103,111,R,epitope-A,outside RBS
-104,112,E,epitope-A,outside RBS
-105,113,S,epitope-A,outside RBS
-106,114,G,epitope-A,outside RBS
-107,115,G,epitope-A,outside RBS
-108,116,I,epitope-A,outside RBS
-109,117,D,epitope-A,outside RBS
-110,118,K,epitope-A,outside RBS
-111,119,E,epitope-A,outside RBS
-112,120,A,epitope-A,outside RBS
-113,121,M,epitope-A,outside RBS
-114,122,G,epitope-A,outside RBS
-115,123,F,epitope-A,outside RBS
-116,124,T,epitope-A,outside RBS
-117,125,Y,epitope-A,RBS 130-loop
-118,126,S,epitope-A,RBS 130-loop
-119,127,G,epitope-A,RBS 130-loop
-120,128,I,epitope-A,RBS 130-loop
-121,129,R,epitope-A,outside RBS
-122,130,T,epitope-A,outside RBS
-123,131,N,epitope-A,outside RBS
-124,132,G,epitope-A,outside RBS
-125,133,A,epitope-A,outside RBS
-126,134,T,epitope-A,outside RBS
-127,135,S,epitope-A,outside RBS
-128,136,A,HA1,outside RBS
-129,137,C,HA1,outside RBS
-130,138,R,HA1,outside RBS
-131,139,R,HA1,outside RBS
-132,140,S,HA1,outside RBS
-133,141,G,HA1,outside RBS
-134,142,S,HA1,RBS base
-135,143,S,HA1,outside RBS
-136,144,F,epitope-B,RBS 150-loop
-137,145,Y,epitope-B,RBS 150-loop
-138,146,A,epitope-B,RBS 150-loop
-139,147,E,epitope-B,RBS 150-loop
-140,148,M,HA1,RBS 150-loop
-141,149,K,HA1,RBS 150-loop
-142,150,W,epitope-B,RBS 150-loop
-143,151,L,epitope-B,RBS 150-loop
-144,152,L,HA1,RBS 150-loop
-145,153,S,HA1,RBS 150-loop
-146,154,N,HA1,RBS 150-loop
-147,155,T,HA1,outside RBS
-148,156,D,HA1,outside RBS
-149,157,N,HA1,outside RBS
-150,158,A,epitope-D,outside RBS
-151,159,A,HA1,outside RBS
-152,160,F,HA1,outside RBS
-153,161,P,HA1,outside RBS
-154,162,Q,HA1,outside RBS
-155,163,M,HA1,outside RBS
-156,164,T,HA1,outside RBS
-157,165,K,HA1,outside RBS
-158,166,S,HA1,outside RBS
-159,167,Y,HA1,outside RBS
-160,168,K,HA1,outside RBS
-161,169,N,HA1,outside RBS
-162,170,T,HA1,outside RBS
-163,171,R,HA1,outside RBS
-164,172,K,HA1,outside RBS
-165,173,S,HA1,outside RBS
-166,174,P,HA1,RBS base
-167,175,A,HA1,outside RBS
-168,176,L,HA1,outside RBS
-169,177,I,epitope-B,outside RBS
-170,178,V,epitope-B,outside RBS
-171,179,W,epitope-B,outside RBS
-172,180,G,epitope-B,outside RBS
-173,181,I,epitope-B,RBS 190-loop
-174,182,H,epitope-B,RBS 190-loop
-175,183,H,epitope-B,RBS 190-loop
-176,184,S,epitope-B,RBS 190-loop
-177,185,V,epitope-B,RBS 190-loop
-178,186,S,HA1,RBS 190-loop
-179,187,T,epitope-B,RBS 190-loop
-180,188,A,epitope-B,RBS 190-loop
-181,189,E,epitope-B,RBS 190-loop
-182,190,Q,epitope-B,outside RBS
-183,191,T,HA1,outside RBS
-184,192,K,epitope-D,outside RBS
-185,193,L,epitope-D,outside RBS
-186,194,Y,epitope-D,outside RBS
-187,195,G,epitope-D,outside RBS
-188,196,S,epitope-D,outside RBS
-189,197,G,epitope-D,outside RBS
-190,198,N,epitope-D,outside RBS
-191,199,K,epitope-D,outside RBS
-192,200,L,HA1,outside RBS
-193,201,V,HA1,outside RBS
-194,202,T,HA1,outside RBS
-195,203,V,HA1,outside RBS
-196,204,G,HA1,outside RBS
-197,205,S,epitope-D,outside RBS
-198,206,S,HA1,outside RBS
-199,207,N,epitope-D,outside RBS
-200,208,Y,epitope-D,outside RBS
-201,209,Q,epitope-D,outside RBS
-202,210,Q,epitope-D,outside RBS
-203,211,S,epitope-D,outside RBS
-204,212,F,HA1,RBS 220-loop
-205,213,V,epitope-D,RBS 220-loop
-206,214,P,epitope-D,RBS 220-loop
-207,215,S,epitope-D,RBS 220-loop
-208,216,P,epitope-D,RBS 220-loop
-209,217,G,epitope-D,RBS 220-loop
-210,218,A,epitope-D,RBS 220-loop
-211,219,R,HA1,RBS 220-loop
-212,220,P,HA1,outside RBS
-213,221,Q,HA1,outside RBS
-214,222,V,HA1,outside RBS
-215,223,N,HA1,outside RBS
-216,224,G,HA1,outside RBS
-217,225,L,HA1,outside RBS
-218,226,S,HA1,outside RBS
-219,227,G,HA1,outside RBS
-220,228,R,HA1,outside RBS
-221,229,I,HA1,outside RBS
-222,230,D,HA1,outside RBS
-223,231,F,HA1,outside RBS
-224,232,H,HA1,outside RBS
-225,233,W,epitope-D,outside RBS
-226,234,L,HA1,outside RBS
-227,235,M,HA1,outside RBS
-228,236,L,HA1,outside RBS
-229,237,N,HA1,outside RBS
-230,238,P,HA1,outside RBS
-231,239,N,HA1,outside RBS
-232,240,D,HA1,outside RBS
-233,241,T,HA1,outside RBS
-234,242,V,HA1,outside RBS
-235,243,T,HA1,outside RBS
-236,244,F,HA1,outside RBS
-237,245,S,HA1,outside RBS
-238,246,F,HA1,outside RBS
-239,247,N,HA1,outside RBS
-240,248,G,HA1,outside RBS
-241,249,A,HA1,outside RBS
-242,250,F,HA1,outside RBS
-243,251,I,HA1,outside RBS
-244,252,A,HA1,outside RBS
-245,253,P,HA1,outside RBS
-246,254,D,HA1,outside RBS
-247,255,R,HA1,outside RBS
-248,256,A,HA1,outside RBS
-249,257,S,HA1,outside RBS
-250,258,F,HA1,outside RBS
-251,259,L,HA1,outside RBS
-252,260,R,HA1,outside RBS
-253,261,G,epitope-C,outside RBS
-254,262,K,epitope-C,outside RBS
-255,263,S,epitope-C,outside RBS
-256,264,M,epitope-C,outside RBS
-257,265,G,epitope-C,outside RBS
-258,266,I,epitope-C,outside RBS
-259,267,Q,epitope-C,outside RBS
-260,268,S,epitope-C,outside RBS
-261,269,G,epitope-C,outside RBS
-262,270,V,HA1,outside RBS
-263,271,Q,HA1,outside RBS
-264,272,V,HA1,outside RBS
-265,273,D,HA1,outside RBS
-266,274,A,HA1,outside RBS
-267,275,N,HA1,outside RBS
-268,276,C,HA1,outside RBS
-269,277,E,HA1,outside RBS
-270,278,G,HA1,outside RBS
-271,279,D,HA1,outside RBS
-272,280,C,HA1,outside RBS
-273,281,Y,HA1,outside RBS
-274,282,H,HA1,outside RBS
-275,283,S,HA1,outside RBS
-276,284,G,HA1,outside RBS
-277,285,G,HA1,outside RBS
-278,286,T,HA1,outside RBS
-279,287,I,HA1,outside RBS
-280,288,I,HA1,outside RBS
-281,289,S,HA1,outside RBS
-282,290,N,HA1,outside RBS
-283,291,L,HA1,outside RBS
-284,292,P,HA1,outside RBS
-285,293,F,HA1,outside RBS
-286,294,Q,HA1,outside RBS
-287,295,N,HA1,outside RBS
-288,296,I,HA1,outside RBS
-289,297,D,HA1,outside RBS
-290,298,S,HA1,outside RBS
-291,299,R,HA1,outside RBS
-292,300,A,HA1,outside RBS
-293,301,V,HA1,outside RBS
-294,302,G,HA1,outside RBS
-295,303,K,HA1,outside RBS
-296,304,C,HA1,outside RBS
-297,305,P,HA1,outside RBS
-298,306,R,HA1,outside RBS
-299,307,Y,HA1,outside RBS
-300,308,V,HA1,outside RBS
-301,309,K,HA1,outside RBS
-302,310,Q,HA1,outside RBS
-303,311,R,HA1,outside RBS
-304,312,S,HA1,outside RBS
-305,313,L,HA1,outside RBS
-306,314,L,HA1,outside RBS
-307,315,L,HA1,outside RBS
-308,316,A,HA1,outside RBS
-309,317,T,HA1,outside RBS
-310,318,G,HA2,outside RBS
-311,319,M,HA2,outside RBS
-312,320,K,HA2,outside RBS
-313,321,N,HA2,outside RBS
-314,322,V,HA2,outside RBS
-315,323,P,HA2,outside RBS
-316,324,E,HA2,outside RBS
-317,325,I,HA2,outside RBS
-318,326,P,HA2,outside RBS
-319,327,K,HA2,outside RBS
-320,328,G,HA2,outside RBS
-321,329,R,HA2,outside RBS
-322,330,G,HA2,outside RBS
-323,331,L,HA2,outside RBS
-324,332,F,HA2,outside RBS
-325,333,G,HA2,outside RBS
-326,334,A,HA2,outside RBS
-327,335,I,HA2,outside RBS
-328,336,A,HA2,outside RBS
-329,337,G,HA2,outside RBS
-330,338,F,HA2,outside RBS
-331,339,I,HA2,outside RBS
-332,340,E,HA2,outside RBS
-333,341,N,HA2,outside RBS
-334,342,G,HA2,outside RBS
-335,343,W,HA2,outside RBS
-336,344,E,HA2,outside RBS
-337,345,G,HA2,outside RBS
-338,346,L,HA2,outside RBS
-339,347,I,HA2,outside RBS
-340,348,D,HA2,outside RBS
-341,349,G,HA2,outside RBS
-342,350,W,HA2,outside RBS
-343,351,Y,HA2,outside RBS
-344,352,G,HA2,outside RBS
-345,353,F,HA2,outside RBS
-346,354,R,HA2,outside RBS
-347,355,H,HA2,outside RBS
-348,356,Q,HA2,outside RBS
-349,357,N,HA2,outside RBS
-350,358,A,HA2,outside RBS
-351,359,Q,HA2,outside RBS
-352,360,G,HA2,outside RBS
-353,361,E,HA2,outside RBS
-354,362,G,HA2,outside RBS
-355,363,T,HA2,outside RBS
-356,364,A,HA2,outside RBS
-357,365,A,HA2,outside RBS
-358,366,D,HA2,outside RBS
-359,367,Y,HA2,outside RBS
-360,368,K,HA2,outside RBS
-361,369,S,HA2,outside RBS
-362,370,T,HA2,outside RBS
-363,371,Q,HA2,outside RBS
-364,372,S,HA2,outside RBS
-365,373,A,HA2,outside RBS
-366,374,I,HA2,outside RBS
-367,375,D,HA2,outside RBS
-368,376,Q,HA2,outside RBS
-369,377,I,HA2,outside RBS
-370,378,T,HA2,outside RBS
-371,379,G,HA2,outside RBS
-372,380,K,HA2,outside RBS
-373,381,L,HA2,outside RBS
-374,382,N,HA2,outside RBS
-375,383,R,HA2,outside RBS
-376,384,L,HA2,outside RBS
-377,385,I,HA2,outside RBS
-378,386,E,HA2,outside RBS
-379,387,K,HA2,outside RBS
-380,388,T,HA2,outside RBS
-381,389,N,HA2,outside RBS
-382,390,Q,HA2,outside RBS
-383,391,Q,HA2,outside RBS
-384,392,F,HA2,outside RBS
-385,393,E,HA2,outside RBS
-386,394,L,HA2,outside RBS
-387,395,I,HA2,outside RBS
-388,396,D,HA2,outside RBS
-389,397,N,HA2,outside RBS
-390,398,E,HA2,outside RBS
-391,399,F,HA2,outside RBS
-392,400,N,HA2,outside RBS
-393,401,E,HA2,outside RBS
-394,402,V,HA2,outside RBS
-395,403,E,HA2,outside RBS
-396,404,K,HA2,outside RBS
-397,405,Q,HA2,outside RBS
-398,406,I,HA2,outside RBS
-399,407,G,HA2,outside RBS
-400,408,N,HA2,outside RBS
-401,409,V,HA2,outside RBS
-402,410,I,HA2,outside RBS
-403,411,N,HA2,outside RBS
-404,412,W,HA2,outside RBS
-405,413,T,HA2,outside RBS
-406,414,R,HA2,outside RBS
-407,415,D,HA2,outside RBS
-408,416,S,HA2,outside RBS
-409,417,I,HA2,outside RBS
-410,418,T,HA2,outside RBS
-411,419,E,HA2,outside RBS
-412,420,V,HA2,outside RBS
-413,421,W,HA2,outside RBS
-414,422,S,HA2,outside RBS
-415,423,Y,HA2,outside RBS
-416,424,N,HA2,outside RBS
-417,425,A,HA2,outside RBS
-418,426,E,HA2,outside RBS
-419,427,L,HA2,outside RBS
-420,428,L,HA2,outside RBS
-421,429,V,HA2,outside RBS
-422,430,A,HA2,outside RBS
-423,431,M,HA2,outside RBS
-424,432,E,HA2,outside RBS
-425,433,N,HA2,outside RBS
-426,434,Q,HA2,outside RBS
-427,435,H,HA2,outside RBS
-428,436,T,HA2,outside RBS
-429,437,I,HA2,outside RBS
-430,438,D,HA2,outside RBS
-431,439,L,HA2,outside RBS
-432,440,A,HA2,outside RBS
-433,441,D,HA2,outside RBS
-434,442,S,HA2,outside RBS
-435,443,E,HA2,outside RBS
-436,444,M,HA2,outside RBS
-437,445,D,HA2,outside RBS
-438,446,K,HA2,outside RBS
-439,447,L,HA2,outside RBS
-440,448,Y,HA2,outside RBS
-441,449,E,HA2,outside RBS
-442,450,R,HA2,outside RBS
-443,451,V,HA2,outside RBS
-444,452,K,HA2,outside RBS
-445,453,R,HA2,outside RBS
-446,454,Q,HA2,outside RBS
-447,455,L,HA2,outside RBS
-448,456,R,HA2,outside RBS
-449,457,E,HA2,outside RBS
-450,458,N,HA2,outside RBS
-451,459,A,HA2,outside RBS
-452,460,E,HA2,outside RBS
-453,461,E,HA2,outside RBS
-454,462,D,HA2,outside RBS
-455,463,G,HA2,outside RBS
-456,464,T,HA2,outside RBS
-457,465,G,HA2,outside RBS
-458,466,C,HA2,outside RBS
-459,467,F,HA2,outside RBS
-460,468,E,HA2,outside RBS
-461,469,I,HA2,outside RBS
-462,470,F,HA2,outside RBS
-463,471,H,HA2,outside RBS
-464,472,K,HA2,outside RBS
-465,473,C,HA2,outside RBS
-466,474,D,HA2,outside RBS
-467,475,D,HA2,outside RBS
-468,476,D,HA2,outside RBS
-469,477,C,HA2,outside RBS
-470,478,M,HA2,outside RBS
-471,479,A,HA2,outside RBS
-472,480,S,HA2,outside RBS
-473,481,I,HA2,outside RBS
-474,482,R,HA2,outside RBS
-475,483,N,HA2,outside RBS
-476,484,N,HA2,outside RBS
-477,485,T,HA2,outside RBS
-478,486,Y,HA2,outside RBS
-479,487,D,HA2,outside RBS
-480,488,H,HA2,outside RBS
-481,489,S,HA2,outside RBS
-482,490,K,HA2,outside RBS
-483,491,Y,Other,outside RBS
-484,492,R,Other,outside RBS
-485,493,E,Other,outside RBS
-486,494,E,Other,outside RBS
-487,495,A,Other,outside RBS
-488,496,M,Other,outside RBS
-489,497,Q,Other,outside RBS
-490,498,N,Other,outside RBS
-491,499,R,Other,outside RBS
-492,500,I,Other,outside RBS
-493,501,Q,Other,outside RBS
-494,502,I,Other,outside RBS
-495,503,D,Other,outside RBS
-496,504,P,Other,outside RBS
-497,505,V,Other,outside RBS
-498,506,K,Other,outside RBS
-499,507,L,Other,outside RBS
-500,508,S,Other,outside RBS
-501,509,S,Other,outside RBS
-502,510,G,Other,outside RBS
-503,511,Y,Other,outside RBS
-504,512,K,Other,outside RBS
-505,513,D,Other,outside RBS
-506,514,V,Other,outside RBS
+﻿sequential_site,reference_site,"HA1_HA2_H7_site	",region,RBS_region
+1,11,1 (HA1),HA1,outside RBS
+2,12,2 (HA1),HA1,outside RBS
+3,13,3 (HA1),HA1,outside RBS
+4,14,4 (HA1),HA1,outside RBS
+5,15,5 (HA1),HA1,outside RBS
+6,16,6 (HA1),HA1,outside RBS
+7,17,7 (HA1),HA1,outside RBS
+8,18,8 (HA1),HA1,outside RBS
+9,19,9 (HA1),HA1,outside RBS
+10,20,10 (HA1),HA1,outside RBS
+11,21,11 (HA1),HA1,outside RBS
+12,22,12 (HA1),HA1,outside RBS
+13,23,13 (HA1),HA1,outside RBS
+14,24,14 (HA1),HA1,outside RBS
+15,25,15 (HA1),HA1,outside RBS
+16,26,16 (HA1),HA1,outside RBS
+17,27,17 (HA1),HA1,outside RBS
+18,28,18 (HA1),HA1,outside RBS
+19,29,19 (HA1),HA1,outside RBS
+20,30,20 (HA1),HA1,outside RBS
+21,31,21 (HA1),HA1,outside RBS
+22,32,22 (HA1),HA1,outside RBS
+23,33,23 (HA1),HA1,outside RBS
+24,34,24 (HA1),HA1,outside RBS
+25,35,25 (HA1),HA1,outside RBS
+26,36,26 (HA1),HA1,outside RBS
+27,37,27 (HA1),HA1,outside RBS
+28,38,28 (HA1),HA1,outside RBS
+29,39,29 (HA1),HA1,outside RBS
+30,40,30 (HA1),HA1,outside RBS
+31,41,31 (HA1),HA1,outside RBS
+32,42,32 (HA1),HA1,outside RBS
+33,43,33 (HA1),HA1,outside RBS
+34,44,34 (HA1),HA1,outside RBS
+35,45,35 (HA1),HA1,outside RBS
+36,46,36 (HA1),HA1,outside RBS
+37,47,37 (HA1),HA1,outside RBS
+38,48,38 (HA1),HA1,outside RBS
+39,49,39 (HA1),region-C,outside RBS
+40,50,40 (HA1),region-C,outside RBS
+41,51,41 (HA1),HA1,outside RBS
+42,52,42 (HA1),HA1,outside RBS
+43,53,43 (HA1),region-C,outside RBS
+44,54,44 (HA1),region-C,outside RBS
+45,55,45 (HA1),HA1,outside RBS
+46,56,46 (HA1),HA1,outside RBS
+47,57,47 (HA1),HA1,outside RBS
+48,58,48 (HA1),HA1,outside RBS
+49,59,49 (HA1),HA1,outside RBS
+50,60,50 (HA1),HA1,outside RBS
+51,61,51 (HA1),HA1,outside RBS
+52,62,52 (HA1),region-E,outside RBS
+53,63,53 (HA1),region-E,outside RBS
+54,64,54 (HA1),HA1,outside RBS
+55,65,55 (HA1),HA1,outside RBS
+56,66,56 (HA1),HA1,outside RBS
+57,67,57 (HA1),HA1,outside RBS
+58,68,58 (HA1),HA1,outside RBS
+59,69,59 (HA1),HA1,outside RBS
+60,70,60 (HA1),HA1,outside RBS
+61,71,61 (HA1),HA1,outside RBS
+62,72,62 (HA1),HA1,outside RBS
+63,73,63 (HA1),HA1,outside RBS
+64,74,64 (HA1),HA1,outside RBS
+65,75,65 (HA1),region-E,outside RBS
+66,76,66 (HA1),HA1,outside RBS
+67,77,67 (HA1),region-E,outside RBS
+68,78,68 (HA1),region-E,outside RBS
+69,79,69 (HA1),region-E,outside RBS
+70,80,70 (HA1),region-E,outside RBS
+71,81,71 (HA1),region-E,outside RBS
+72,82,72 (HA1),region-E,outside RBS
+73,83,73 (HA1),HA1,outside RBS
+74,84,74 (HA1),HA1,outside RBS
+75,85,75 (HA1),HA1,outside RBS
+76,86,76 (HA1),HA1,outside RBS
+77,87,77 (HA1),HA1,outside RBS
+78,88,78 (HA1),HA1,outside RBS
+79,89,79 (HA1),HA1,outside RBS
+80,90,80 (HA1),region-E,outside RBS
+81,91,81 (HA1),region-E,outside RBS
+82,92,82 (HA1),region-E,outside RBS
+83,93,83 (HA1),HA1,outside RBS
+84,94,84 (HA1),HA1,outside RBS
+85,95,85 (HA1),HA1,outside RBS
+86,96,86 (HA1),HA1,outside RBS
+87,97,87 (HA1),HA1,outside RBS
+88,98,88 (HA1),HA1,outside RBS
+89,99,89 (HA1),HA1,outside RBS
+90,100,90 (HA1),HA1,outside RBS
+91,101,91 (HA1),HA1,outside RBS
+92,102,92 (HA1),HA1,outside RBS
+93,103,93 (HA1),HA1,outside RBS
+94,104,94 (HA1),HA1,outside RBS
+95,105,95 (HA1),HA1,outside RBS
+96,106,96 (HA1),HA1,outside RBS
+97,107,97 (HA1),HA1,outside RBS
+98,108,98 (HA1),HA1,outside RBS
+99,109,99 (HA1),HA1,outside RBS
+100,110,100 (HA1),HA1,outside RBS
+101,111,101 (HA1),HA1,outside RBS
+102,112,102 (HA1),HA1,outside RBS
+103,113,103 (HA1),HA1,outside RBS
+104,114,104 (HA1),HA1,outside RBS
+105,115,105 (HA1),HA1,outside RBS
+106,116,106 (HA1),HA1,outside RBS
+107,117,107 (HA1),HA1,outside RBS
+108,118,108 (HA1),HA1,outside RBS
+109,119,109 (HA1),HA1,outside RBS
+110,120,110 (HA1),HA1,outside RBS
+111,121,111 (HA1),region-A,outside RBS
+112,122,112 (HA1),region-A,outside RBS
+113,123,113 (HA1),region-A,outside RBS
+114,124,114 (HA1),region-A,outside RBS
+115,125,115 (HA1),region-A,outside RBS
+116,126,116 (HA1),region-A,outside RBS
+117,127,117 (HA1),region-A,outside RBS
+118,128,118 (HA1),region-A,outside RBS
+119,129,119 (HA1),region-A,outside RBS
+120,130,120 (HA1),region-A,outside RBS
+121,131,121 (HA1),region-A,outside RBS
+122,132,122 (HA1),region-A,outside RBS
+123,133,123 (HA1),region-A,outside RBS
+124,134,124 (HA1),region-A,outside RBS
+125,135,125 (HA1),region-A,130-loop
+126,136,126 (HA1),region-A,130-loop
+127,137,127 (HA1),region-A,130-loop
+128,138,128 (HA1),region-A,130-loop
+129,139,129 (HA1),region-A,outside RBS
+130,140,130 (HA1),region-A,outside RBS
+131,141,131 (HA1),region-A,outside RBS
+132,143,132 (HA1),region-A,outside RBS
+133,144,133 (HA1),region-A,outside RBS
+134,145,134 (HA1),region-A,outside RBS
+135,146,135 (HA1),region-A,outside RBS
+136,147,136 (HA1),HA1,outside RBS
+137,148,137 (HA1),HA1,outside RBS
+138,149,138 (HA1),HA1,outside RBS
+139,150,139 (HA1),HA1,outside RBS
+140,151,140 (HA1),HA1,outside RBS
+141,152,141 (HA1),HA1,outside RBS
+142,153,142 (HA1),HA1,outside RBS
+143,154,143 (HA1),HA1,outside RBS
+144,155,144 (HA1),region-B,150-loop
+145,156,145 (HA1),region-B,150-loop
+146,157,146 (HA1),region-B,150-loop
+147,158,147 (HA1),region-B,150-loop
+148,158a,148 (HA1),HA1,150-loop
+149,158b,149 (HA1),HA1,150-loop
+150,159,150 (HA1),region-B,150-loop
+151,160,151 (HA1),region-B,150-loop
+152,161,152 (HA1),HA1,150-loop
+153,162,153 (HA1),HA1,150-loop
+154,163,154 (HA1),HA1,150-loop
+155,164,155 (HA1),HA1,outside RBS
+156,165,156 (HA1),HA1,outside RBS
+157,166,157 (HA1),HA1,outside RBS
+158,167,158 (HA1),region-D,outside RBS
+159,168,159 (HA1),HA1,outside RBS
+160,169,160 (HA1),HA1,outside RBS
+161,170,161 (HA1),HA1,outside RBS
+162,171,162 (HA1),HA1,outside RBS
+163,172,163 (HA1),HA1,outside RBS
+164,173,164 (HA1),HA1,outside RBS
+165,174,165 (HA1),HA1,outside RBS
+166,175,166 (HA1),HA1,outside RBS
+167,176,167 (HA1),HA1,outside RBS
+168,177,168 (HA1),HA1,outside RBS
+169,178,169 (HA1),HA1,outside RBS
+170,179,170 (HA1),HA1,outside RBS
+171,180,171 (HA1),HA1,outside RBS
+172,181,172 (HA1),HA1,outside RBS
+173,182,173 (HA1),HA1,outside RBS
+174,183,174 (HA1),HA1,outside RBS
+175,184,175 (HA1),HA1,outside RBS
+176,185,176 (HA1),HA1,outside RBS
+177,186,177 (HA1),region-B,outside RBS
+178,187,178 (HA1),region-B,outside RBS
+179,188,179 (HA1),region-B,outside RBS
+180,189,180 (HA1),region-B,outside RBS
+181,190,181 (HA1),region-B,190-loop
+182,191,182 (HA1),region-B,190-loop
+183,192,183 (HA1),region-B,190-loop
+184,193,184 (HA1),region-B,190-loop
+185,194,185 (HA1),region-B,190-loop
+186,195,186 (HA1),HA1,190-loop
+187,196,187 (HA1),region-B,190-loop
+188,197,188 (HA1),region-B,190-loop
+189,198,189 (HA1),region-B,190-loop
+190,199,190 (HA1),region-B,outside RBS
+191,200,191 (HA1),HA1,outside RBS
+192,201,192 (HA1),region-D,outside RBS
+193,202,193 (HA1),region-D,outside RBS
+194,203,194 (HA1),region-D,outside RBS
+195,204,195 (HA1),region-D,outside RBS
+196,205,196 (HA1),region-D,outside RBS
+197,206,197 (HA1),region-D,outside RBS
+198,207,198 (HA1),region-D,outside RBS
+199,208,199 (HA1),region-D,outside RBS
+200,209,200 (HA1),HA1,outside RBS
+201,210,201 (HA1),HA1,outside RBS
+202,211,202 (HA1),HA1,outside RBS
+203,212,203 (HA1),HA1,outside RBS
+204,213,204 (HA1),HA1,outside RBS
+205,214,205 (HA1),region-D,outside RBS
+206,215,206 (HA1),HA1,outside RBS
+207,216,207 (HA1),region-D,outside RBS
+208,217,208 (HA1),region-D,outside RBS
+209,218,209 (HA1),region-D,outside RBS
+210,219,210 (HA1),region-D,outside RBS
+211,220,211 (HA1),region-D,outside RBS
+212,221,212 (HA1),HA1,220-loop
+213,222,213 (HA1),region-D,220-loop
+214,223,214 (HA1),region-D,220-loop
+215,224,215 (HA1),region-D,220-loop
+216,225,216 (HA1),region-D,220-loop
+217,226,217 (HA1),region-D,220-loop
+218,227,218 (HA1),region-D,220-loop
+219,228,219 (HA1),HA1,220-loop
+220,229,220 (HA1),HA1,outside RBS
+221,230,221 (HA1),HA1,outside RBS
+222,231,222 (HA1),HA1,outside RBS
+223,232,223 (HA1),HA1,outside RBS
+224,233,224 (HA1),HA1,outside RBS
+225,234,225 (HA1),HA1,outside RBS
+226,235,226 (HA1),HA1,outside RBS
+227,236,227 (HA1),HA1,outside RBS
+228,237,228 (HA1),HA1,outside RBS
+229,238,229 (HA1),HA1,outside RBS
+230,239,230 (HA1),HA1,outside RBS
+231,240,231 (HA1),HA1,outside RBS
+232,241,232 (HA1),HA1,outside RBS
+233,242,233 (HA1),region-D,outside RBS
+234,243,234 (HA1),HA1,outside RBS
+235,244,235 (HA1),HA1,outside RBS
+236,245,236 (HA1),HA1,outside RBS
+237,246,237 (HA1),HA1,outside RBS
+238,247,238 (HA1),HA1,outside RBS
+239,248,239 (HA1),HA1,outside RBS
+240,249,240 (HA1),HA1,outside RBS
+241,250,241 (HA1),HA1,outside RBS
+242,251,242 (HA1),HA1,outside RBS
+243,252,243 (HA1),HA1,outside RBS
+244,253,244 (HA1),HA1,outside RBS
+245,254,245 (HA1),HA1,outside RBS
+246,255,246 (HA1),HA1,outside RBS
+247,256,247 (HA1),HA1,outside RBS
+248,257,248 (HA1),HA1,outside RBS
+249,258,249 (HA1),HA1,outside RBS
+250,259,250 (HA1),HA1,outside RBS
+251,260,251 (HA1),HA1,outside RBS
+252,261,252 (HA1),HA1,outside RBS
+253,261a,253 (HA1),HA1,outside RBS
+254,263,254 (HA1),HA1,outside RBS
+255,264,255 (HA1),HA1,outside RBS
+256,265,256 (HA1),HA1,outside RBS
+257,266,257 (HA1),HA1,outside RBS
+258,267,258 (HA1),HA1,outside RBS
+259,268,259 (HA1),HA1,outside RBS
+260,269,260 (HA1),HA1,outside RBS
+261,270,261 (HA1),region-C,outside RBS
+262,271,262 (HA1),region-C,outside RBS
+263,272,263 (HA1),region-C,outside RBS
+264,273,264 (HA1),region-C,outside RBS
+265,274,265 (HA1),region-C,outside RBS
+266,275,266 (HA1),region-C,outside RBS
+267,276,267 (HA1),region-C,outside RBS
+268,277,268 (HA1),HA1,outside RBS
+269,278,269 (HA1),region-C,outside RBS
+270,279,270 (HA1),HA1,outside RBS
+271,280,271 (HA1),HA1,outside RBS
+272,281,272 (HA1),HA1,outside RBS
+273,282,273 (HA1),HA1,outside RBS
+274,283,274 (HA1),HA1,outside RBS
+275,284,275 (HA1),HA1,outside RBS
+276,285,276 (HA1),HA1,outside RBS
+277,286,277 (HA1),HA1,outside RBS
+278,287,278 (HA1),HA1,outside RBS
+279,288,279 (HA1),HA1,outside RBS
+280,289,280 (HA1),HA1,outside RBS
+281,290,281 (HA1),HA1,outside RBS
+282,291,282 (HA1),HA1,outside RBS
+283,292,283 (HA1),HA1,outside RBS
+284,293,284 (HA1),HA1,outside RBS
+285,294,285 (HA1),HA1,outside RBS
+286,295,286 (HA1),HA1,outside RBS
+287,296,287 (HA1),HA1,outside RBS
+288,297,288 (HA1),HA1,outside RBS
+289,298,289 (HA1),HA1,outside RBS
+290,299,290 (HA1),HA1,outside RBS
+291,300,291 (HA1),HA1,outside RBS
+292,301,292 (HA1),HA1,outside RBS
+293,302,293 (HA1),HA1,outside RBS
+294,303,294 (HA1),HA1,outside RBS
+295,304,295 (HA1),HA1,outside RBS
+296,305,296 (HA1),HA1,outside RBS
+297,306,297 (HA1),HA1,outside RBS
+298,307,298 (HA1),HA1,outside RBS
+299,308,299 (HA1),HA1,outside RBS
+300,309,300 (HA1),HA1,outside RBS
+301,310,301 (HA1),HA1,outside RBS
+302,311,302 (HA1),HA1,outside RBS
+303,312,303 (HA1),HA1,outside RBS
+304,313,304 (HA1),HA1,outside RBS
+305,314,305 (HA1),HA1,outside RBS
+306,315,306 (HA1),HA1,outside RBS
+307,316,307 (HA1),HA1,outside RBS
+308,317,308 (HA1),HA1,outside RBS
+309,318,309 (HA1),HA1,outside RBS
+310,319,310 (HA1),HA1,outside RBS
+311,320,311 (HA1),HA1,outside RBS
+312,321,312 (HA1),HA1,outside RBS
+313,322,313 (HA1),HA1,outside RBS
+314,323,314 (HA1),HA1,outside RBS
+315,324,315 (HA1),HA1,outside RBS
+316,325,316 (HA1),HA1,outside RBS
+317,326,317 (HA1),HA1,outside RBS
+318,327,318 cleavage_site,cleavage_site,outside RBS
+319,328,319 cleavage_site,cleavage_site,outside RBS
+320,328a,320 cleavage_site,cleavage_site,outside RBS
+321,329,321 cleavage_site,cleavage_site,outside RBS
+322,330,322 (HA2),HA2,outside RBS
+323,331,323 (HA2),HA2,outside RBS
+324,332,324 (HA2),HA2,outside RBS
+325,333,325 (HA2),HA2,outside RBS
+326,334,326 (HA2),HA2,outside RBS
+327,335,327 (HA2),HA2,outside RBS
+328,336,328 (HA2),HA2,outside RBS
+329,337,329 (HA2),HA2,outside RBS
+330,338,330 (HA2),HA2,outside RBS
+331,339,331 (HA2),HA2,outside RBS
+332,340,332 (HA2),HA2,outside RBS
+333,341,333 (HA2),HA2,outside RBS
+334,342,334 (HA2),HA2,outside RBS
+335,343,335 (HA2),HA2,outside RBS
+336,344,336 (HA2),HA2,outside RBS
+337,345,337 (HA2),HA2,outside RBS
+338,346,338 (HA2),HA2,outside RBS
+339,347,339 (HA2),HA2,outside RBS
+340,348,340 (HA2),HA2,outside RBS
+341,349,341 (HA2),HA2,outside RBS
+342,350,342 (HA2),HA2,outside RBS
+343,351,343 (HA2),HA2,outside RBS
+344,352,344 (HA2),HA2,outside RBS
+345,353,345 (HA2),HA2,outside RBS
+346,354,346 (HA2),HA2,outside RBS
+347,355,347 (HA2),HA2,outside RBS
+348,356,348 (HA2),HA2,outside RBS
+349,357,349 (HA2),HA2,outside RBS
+350,358,350 (HA2),HA2,outside RBS
+351,359,351 (HA2),HA2,outside RBS
+352,360,352 (HA2),HA2,outside RBS
+353,361,353 (HA2),HA2,outside RBS
+354,362,354 (HA2),HA2,outside RBS
+355,363,355 (HA2),HA2,outside RBS
+356,364,356 (HA2),HA2,outside RBS
+357,365,357 (HA2),HA2,outside RBS
+358,366,358 (HA2),HA2,outside RBS
+359,367,359 (HA2),HA2,outside RBS
+360,368,360 (HA2),HA2,outside RBS
+361,369,361 (HA2),HA2,outside RBS
+362,370,362 (HA2),HA2,outside RBS
+363,371,363 (HA2),HA2,outside RBS
+364,372,364 (HA2),HA2,outside RBS
+365,373,365 (HA2),HA2,outside RBS
+366,374,366 (HA2),HA2,outside RBS
+367,375,367 (HA2),HA2,outside RBS
+368,376,368 (HA2),HA2,outside RBS
+369,377,369 (HA2),HA2,outside RBS
+370,378,370 (HA2),HA2,outside RBS
+371,379,371 (HA2),HA2,outside RBS
+372,380,372 (HA2),HA2,outside RBS
+373,381,373 (HA2),HA2,outside RBS
+374,382,374 (HA2),HA2,outside RBS
+375,383,375 (HA2),HA2,outside RBS
+376,384,376 (HA2),HA2,outside RBS
+377,385,377 (HA2),HA2,outside RBS
+378,386,378 (HA2),HA2,outside RBS
+379,387,379 (HA2),HA2,outside RBS
+380,388,380 (HA2),HA2,outside RBS
+381,389,381 (HA2),HA2,outside RBS
+382,390,382 (HA2),HA2,outside RBS
+383,391,383 (HA2),HA2,outside RBS
+384,392,384 (HA2),HA2,outside RBS
+385,393,385 (HA2),HA2,outside RBS
+386,394,386 (HA2),HA2,outside RBS
+387,395,387 (HA2),HA2,outside RBS
+388,396,388 (HA2),HA2,outside RBS
+389,397,389 (HA2),HA2,outside RBS
+390,398,390 (HA2),HA2,outside RBS
+391,399,391 (HA2),HA2,outside RBS
+392,400,392 (HA2),HA2,outside RBS
+393,401,393 (HA2),HA2,outside RBS
+394,402,394 (HA2),HA2,outside RBS
+395,403,395 (HA2),HA2,outside RBS
+396,404,396 (HA2),HA2,outside RBS
+397,405,397 (HA2),HA2,outside RBS
+398,406,398 (HA2),HA2,outside RBS
+399,407,399 (HA2),HA2,outside RBS
+400,408,400 (HA2),HA2,outside RBS
+401,409,401 (HA2),HA2,outside RBS
+402,410,402 (HA2),HA2,outside RBS
+403,411,403 (HA2),HA2,outside RBS
+404,412,404 (HA2),HA2,outside RBS
+405,413,405 (HA2),HA2,outside RBS
+406,414,406 (HA2),HA2,outside RBS
+407,415,407 (HA2),HA2,outside RBS
+408,416,408 (HA2),HA2,outside RBS
+409,417,409 (HA2),HA2,outside RBS
+410,418,410 (HA2),HA2,outside RBS
+411,419,411 (HA2),HA2,outside RBS
+412,420,412 (HA2),HA2,outside RBS
+413,421,413 (HA2),HA2,outside RBS
+414,422,414 (HA2),HA2,outside RBS
+415,423,415 (HA2),HA2,outside RBS
+416,424,416 (HA2),HA2,outside RBS
+417,425,417 (HA2),HA2,outside RBS
+418,426,418 (HA2),HA2,outside RBS
+419,427,419 (HA2),HA2,outside RBS
+420,428,420 (HA2),HA2,outside RBS
+421,429,421 (HA2),HA2,outside RBS
+422,430,422 (HA2),HA2,outside RBS
+423,431,423 (HA2),HA2,outside RBS
+424,432,424 (HA2),HA2,outside RBS
+425,433,425 (HA2),HA2,outside RBS
+426,434,426 (HA2),HA2,outside RBS
+427,435,427 (HA2),HA2,outside RBS
+428,436,428 (HA2),HA2,outside RBS
+429,437,429 (HA2),HA2,outside RBS
+430,438,430 (HA2),HA2,outside RBS
+431,439,431 (HA2),HA2,outside RBS
+432,440,432 (HA2),HA2,outside RBS
+433,441,433 (HA2),HA2,outside RBS
+434,442,434 (HA2),HA2,outside RBS
+435,443,435 (HA2),HA2,outside RBS
+436,444,436 (HA2),HA2,outside RBS
+437,445,437 (HA2),HA2,outside RBS
+438,446,438 (HA2),HA2,outside RBS
+439,447,439 (HA2),HA2,outside RBS
+440,448,440 (HA2),HA2,outside RBS
+441,449,441 (HA2),HA2,outside RBS
+442,450,442 (HA2),HA2,outside RBS
+443,451,443 (HA2),HA2,outside RBS
+444,452,444 (HA2),HA2,outside RBS
+445,453,445 (HA2),HA2,outside RBS
+446,454,446 (HA2),HA2,outside RBS
+447,455,447 (HA2),HA2,outside RBS
+448,456,448 (HA2),HA2,outside RBS
+449,457,449 (HA2),HA2,outside RBS
+450,458,450 (HA2),HA2,outside RBS
+451,459,451 (HA2),HA2,outside RBS
+452,460,452 (HA2),HA2,outside RBS
+453,461,453 (HA2),HA2,outside RBS
+454,462,454 (HA2),HA2,outside RBS
+455,463,455 (HA2),HA2,outside RBS
+456,464,456 (HA2),HA2,outside RBS
+457,465,457 (HA2),HA2,outside RBS
+458,466,458 (HA2),HA2,outside RBS
+459,467,459 (HA2),HA2,outside RBS
+460,468,460 (HA2),HA2,outside RBS
+461,469,461 (HA2),HA2,outside RBS
+462,470,462 (HA2),HA2,outside RBS
+463,471,463 (HA2),HA2,outside RBS
+464,472,464 (HA2),HA2,outside RBS
+465,473,465 (HA2),HA2,outside RBS
+466,474,466 (HA2),HA2,outside RBS
+467,475,467 (HA2),HA2,outside RBS
+468,476,468 (HA2),HA2,outside RBS
+469,477,469 (HA2),HA2,outside RBS
+470,478,470 (HA2),HA2,outside RBS
+471,479,471 (HA2),HA2,outside RBS
+472,480,472 (HA2),HA2,outside RBS
+473,481,473 (HA2),HA2,outside RBS
+474,482,474 (HA2),HA2,outside RBS
+475,483,475 (HA2),HA2,outside RBS
+476,484,476 (HA2),HA2,outside RBS
+477,485,477 (HA2),HA2,outside RBS
+478,486,478 (HA2),HA2,outside RBS
+479,487,479 (HA2),HA2,outside RBS
+480,488,480 (HA2),HA2,outside RBS
+481,489,481 (HA2),HA2,outside RBS
+482,490,482 (HA2),HA2,outside RBS
+483,491,483 (HA2),HA2,outside RBS
+484,492,484 (HA2),HA2,outside RBS
+485,493,485 (HA2),HA2,outside RBS
+486,494,486 (HA2),HA2,outside RBS
+487,495,487 (HA2),HA2,outside RBS
+488,496,488 (HA2),HA2,outside RBS
+489,497,489 (HA2),HA2,outside RBS
+490,498,490 (HA2),HA2,outside RBS
+491,499,491 (HA2),HA2,outside RBS
+492,500,492 (HA2),HA2,outside RBS
+493,501,493 (HA2),HA2,outside RBS
+494,502,494 (HA2),HA2,outside RBS
+495,503,495 (HA2),HA2,outside RBS
+496,504,496 (HA2),HA2,outside RBS
+497,505,497 (HA2),HA2,outside RBS
+498,506,498 (HA2),HA2,outside RBS
+499,507,499 (HA2),HA2,outside RBS
+500,508,500 (HA2),HA2,outside RBS
+501,509,501 (HA2),HA2,outside RBS
+502,510,502 (HA2),HA2,outside RBS
+503,511,503 (HA2),HA2,outside RBS
+504,512,504 (HA2),HA2,outside RBS
+505,513,505 (HA2),HA2,outside RBS
+506,514,506 (HA2),HA2,outside RBS
