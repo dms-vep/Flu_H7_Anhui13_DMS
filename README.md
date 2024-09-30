@@ -29,7 +29,7 @@ Input data utilized by the pipeline are located in [./data/](data).
 The results of running the pipeline are placed in [./results/](results).
 Due to space, only some results are tracked. For those that are not, see the [.gitignore](.gitignore) document.
 
-The pipeline builds HTML documentation for the pipeline in [./docs/](docs). These docs are rendered for viewing at [https://dms-vep.org/Flu_H7_Anhui13_DMS/](https://github.com/dms-vep/Flu_H7_Anhui13_DMS).
+The pipeline builds HTML documentation for the pipeline in [./docs/](docs). These docs are rendered for viewing at [https://dms-vep.org/Flu_H7_Anhui13_DMS/](https://dms-vep.org/Flu_H7_Anhui13_DMS/).
 
 ### Non-pipeline analyses
 All other non-pipeline analyses are contained in [./scratch_notebooks/](scratch_notebooks). The notebooks in this directory are not part of the main pipeline but have been used to generate files used as input for the pipeline.
