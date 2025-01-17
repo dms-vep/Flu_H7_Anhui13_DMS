@@ -1,51 +1,46 @@
-LOCUS       PacBio_amplicon        2407 bp DNA     linear   UNA 23-SEP-2024
-DEFINITION  PacBio amplicon of Anhui13_HA.
+LOCUS       PacBio_amplicon        1872 bp    DNA     linear   UNA 17-JAN-2025
+DEFINITION  PacBio amplicon of Anhui13 HA H7.
 FEATURES             Location/Qualifiers
-    termini5         1..492 
-    gene             493..2010
-    gene_flank3      2011..2175
-    barcode          2176..2191
-    termini3         2192..2407
+     termini5        1..47
+     variant_tag5    28..28
+     gene_flank5     48..101
+     gene            102..1619
+     gene_flank3     1620..1784
+     barcode         1785..1800
+     termini3        1801..1872
+     variant_tag3    1827..1827
+
 ORIGIN
-        1 catatgacta gtctctctcg agtttactcc ctatcagtga tagagaacgt atgaagagtt
-       61 tactccctat cagtgataga gaacgtatgc agactttact ccctatcagt gatagagaac
-      121 gtataaggag tttactccct atcagtgata gagaacgtat gaccagttta ctccctatca
-      181 gtgatagaga acgtatctac agtttactcc ctatcagtga tagagaacgt atatccagtt
-      241 tactccctat cagtgataga gaacgtataa gctttgctta tgtaaaccag ggcgcctata
-      301 aaagagtgct gattttttga gtaaacttca attccacaac acttttgtct tataccaact
-      361 ttccgtacca cttcctaccc tcgtaaagaa ttcgcggccg cacgcgcagc cgagccacat
-      421 cgctcaacgc gtgccaccat gaacacccag atcttagttt tcgccctgat cgccatcatc
-      481 cccaccaatg ccgataagat ctgcctgggc caccacgccg tgtccaacgg caccaaggtg
-      541 aacaccctga ccgagagggg agtggaagtg gtgaatgcca ccgaaaccgt ggaacggaca
-      601 aacatcccta gaatctgtag caaaggcaag cggacagtgg acctaggaca gtgcggcctc
-      661 ctgggtacaa tcaccggccc cccccaatgt gatcagttcc tggaattcag cgccgacctg
-      721 atcatcgagc gcagagaagg ctctgatgtc tgctaccctg gcaaattcgt gaacgaggaa
-      781 gctctgagac agatcctgcg agagagcggc ggtatcgaca aagaggccat gggcttcacc
-      841 tacagcggaa tcagaaccaa cggagccaca agcgcctgca gacggtctgg cagcagcttc
-      901 tacgccgaga tgaaatggct gctgtctaat actgataacg ctgctttccc tcaaatgacc
-      961 aagtcatata agaacacccg gaagtcccca gccctgattg tgtggggcat ccaccacagc
-     1021 gtgtctacag ccgaacagac aaagctgtac ggctccggaa ataagctggt gaccgtggga
-     1081 agctccaact accagcaaag cttcgtgcct agcccaggcg ccagacctca ggtgaacggc
-     1141 ctgagcggaa gaatcgactt ccactggctg atgctgaacc ctaacgacac cgtgaccttc
-     1201 tccttcaacg gcgcttttat cgcccctgat agagctagct ttctgcgggg caaaagcatg
-     1261 ggcatccaga gcggcgtgca ggtcgacgcc aactgcgagg gcgactgcta ccactctggc
-     1321 ggcacaatca tcagcaatct gcctttccag aacatcgaca gccgggccgt gggcaagtgc
-     1381 cccagatacg tgaaacaaag aagcctgctg ctggccaccg gcatgaagaa tgtgcctgag
-     1441 atccccaagg gcagaggcct gttcggcgct atcgccggat tcattgaaaa cggatgggag
-     1501 ggcctgatcg acggctggta cggcttcaga caccagaatg cccagggcga gggcaccgcc
-     1561 gccgactaca agagcacaca gagcgccatc gaccagatca ccggcaagct caatagactg
-     1621 atcgagaaga caaaccagca gttcgagctg attgacaatg agttcaacga ggtggaaaag
-     1681 cagatcggca acgtgatcaa ctggaccaga gatagcatca cagaggtgtg gagttataac
-     1741 gccgaacttc tggtcgccat ggaaaaccag cacaccatcg atctggctga cagcgagatg
-     1801 gacaagctgt acgagcgggt gaagcggcag ctgagagaga acgctgaaga ggacggcaca
-     1861 ggctgcttcg agatcttcca taagtgcgac gatgactgca tggcctctat ccggaacaac
-     1921 acatacgacc acagcaagta cagagaagag gccatgcaga acaggattca gattgatcct
-     1981 gtgaagctgt ccagcggcta caaggacgtg atcctgtggt tcagctttgg cgcttcttgt
-     2041 tttatcctgc tggccatcgt gatgggcctg gtctttatct gtgtgaagaa cggcaacatg
-     2101 cggtgcacca tctgtatctg ataaggcgcg cctagttgga tcacactctt tccctacacg
-     2161 acgctcttcc gatctnnnnn nnnnnnnnnn ntctagattc gagagagaaa tgttcctagt
-     2221 ggagttccgc gttacataac ttacggtaaa tggcccgcct ggctgaccgc ccaacgaccc
-     2281 ccgcccattg acgtcaataa tgacgtatgt tcccatagta acgccaatag ggactttcca
-     2341 ttgacgtcaa tgggtggagt atttacggta aactgcccac ttggcagtac atcaagtgta
-     2401 tcatatg
+        1 ctagccattc agaggcagcc gagccacstc gctcaacgcg tgccaccatg aacacccaga
+       61 tcttagtttt cgccctgatc gccatcatcc ccaccaatgc cgataagatc tgcctgggcc
+      121 accacgccgt gtccaacggc accaaggtga acaccctgac cgagagggga gtggaagtgg
+      181 tgaatgccac cgaaaccgtg gaacggacaa acatccctag aatctgtagc aaaggcaagc
+      241 ggacagtgga cctaggacag tgcggcctcc tgggtacaat caccggcccc ccccaatgtg
+      301 atcagttcct ggaattcagc gccgacctga tcatcgagcg cagagaaggc tctgatgtct
+      361 gctaccctgg caaattcgtg aacgaggaag ctctgagaca gatcctgcga gagagcggcg
+      421 gtatcgacaa agaggccatg ggcttcacct acagcggaat cagaaccaac ggagccacaa
+      481 gcgcctgcag acggtctggc agcagcttct acgccgagat gaaatggctg ctgtctaata
+      541 ctgataacgc tgctttccct caaatgacca agtcatataa gaacacccgg aagtccccag
+      601 ccctgattgt gtggggcatc caccacagcg tgtctacagc cgaacagaca aagctgtacg
+      661 gctccggaaa taagctggtg accgtgggaa gctccaacta ccagcaaagc ttcgtgccta
+      721 gcccaggcgc cagacctcag gtgaacggcc tgagcggaag aatcgacttc cactggctga
+      781 tgctgaaccc taacgacacc gtgaccttct ccttcaacgg cgcttttatc gcccctgata
+      841 gagctagctt tctgcggggc aaaagcatgg gcatccagag cggcgtgcag gtcgacgcca
+      901 actgcgaggg cgactgctac cactctggcg gcacaatcat cagcaatctg cctttccaga
+      961 acatcgacag ccgggccgtg ggcaagtgcc ccagatacgt gaaacaaaga agcctgctgc
+     1021 tggccaccgg catgaagaat gtgcctgaga tccccaaggg cagaggcctg ttcggcgcta
+     1081 tcgccggatt cattgaaaac ggatgggagg gcctgatcga cggctggtac ggcttcagac
+     1141 accagaatgc ccagggcgag ggcaccgccg ccgactacaa gagcacacag agcgccatcg
+     1201 accagatcac cggcaagctc aatagactga tcgagaagac aaaccagcag ttcgagctga
+     1261 ttgacaatga gttcaacgag gtggaaaagc agatcggcaa cgtgatcaac tggaccagag
+     1321 atagcatcac agaggtgtgg agttataacg ccgaacttct ggtcgccatg gaaaaccagc
+     1381 acaccatcga tctggctgac agcgagatgg acaagctgta cgagcgggtg aagcggcagc
+     1441 tgagagagaa cgctgaagag gacggcacag gctgcttcga gatcttccat aagtgcgacg
+     1501 atgactgcat ggcctctatc cggaacaaca catacgacca cagcaagtac agagaagagg
+     1561 ccatgcagaa caggattcag attgatcctg tgaagctgtc cagcggctac aaggacgtga
+     1621 tcctgtggtt cagctttggc gcttcttgtt ttatcctgct ggccatcgtg atgggcctgg
+     1681 tctttatctg tgtgaagaac ggcaacatgc ggtgcaccat ctgtatctga taaggcgcgc
+     1741 ctagttggat cacactcttt ccctacacga cgctcttccg atctnnnnnn nnnnnnnnnn
+     1801 tctagattcg agagagaaat gttcctsgtg gagttccgcg ttacataact tacggctcgt
+     1861 actggttgag cg
 //
