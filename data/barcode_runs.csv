@@ -1,0 +1,9 @@
+﻿sample,library,date,fastq_R1,notes
+A-250305-H7-VSVG-1,A,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_VSVG_A1_S17_L002_R1_001.fastq.gz,
+A-250305-H7-VSVG-2,A,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_VSVG_A2_S18_L002_R1_001.fastq.gz,
+B-250305-H7-VSVG-1,B,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_VSVG_B1_S19_L002_R1_001.fastq.gz,
+B-250305-H7-VSVG-2,B,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_VSVG_B2_S20_L002_R1_001.fastq.gz,
+A-250305-H7-Lib-1,A,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_Lib_A1_S21_L002_R1_001.fastq.gz,
+A-250305-H7-Lib-2,A,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_Lib_A2_S22_L002_R1_001.fastq.gz,
+B-250305-H7-Lib-1,B,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_Lib_B1_S23_L002_R1_001.fastq.gz,
+B-250305-H7-Lib-2,B,20250305,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250305_LH00740_0053_A22Y5V3LT3/Unaligned/JA_Functional_H7_Lib/H7_Lib_B2_S24_L002_R1_001.fastq.gz,

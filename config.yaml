@@ -102,7 +102,7 @@ codon_variants: results/variants/codon_variants.csv
 # Parameters related to counting the variants from barcode sequencing
 # ----------------------------------------------------------------------------
 
-barcode_runs: null  # Illumina barcode runs, set to null if no runs
+barcode_runs: data/barcode_runs.csv  # Illumina barcode runs, set to null if no runs
 
 # If the repo already includes the barcode counts tracked, and you just want to use
 # those and **not** recompute by processing the FASTQ files in `barcode_runs`, set
@@ -124,6 +124,6 @@ illumina_barcode_parser_params:
 # For each variable, set to "null" or just don't provide if you aren't doing that type
 # of analysis. Otherwise provide path to configuration for that analysis.
 
-func_effects_config: null #data/func_effects_config.yml  # Functional effects of mutations
+func_effects_config: data/func_effects_config.yml  # Functional effects of mutations
 antibody_escape_config: null #data/antibody_escape_config.yml # escape assays (eg, antibodies)
 summaries_config: null #data/summaries_config.yml # Summaries across assays

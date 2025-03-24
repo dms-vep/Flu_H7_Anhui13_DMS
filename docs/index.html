@@ -3,6 +3,8 @@
 <p>See <a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS">https://github.com/dms-vep/Flu_H7_Anhui13_DMS</a> for full code.</p>
 <div class="toc"><span class="toctitle">Contents</span><ul>
 <li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
 </ul>
 </div>
 <h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
@@ -17,4 +19,93 @@
 <li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
 <li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
 <li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/A-250305-H7-VSVG-1_counts.csv">A-250305-H7-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/A-250305-H7-VSVG-2_counts.csv">A-250305-H7-VSVG-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/B-250305-H7-VSVG-1_counts.csv">B-250305-H7-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/B-250305-H7-VSVG-2_counts.csv">B-250305-H7-VSVG-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/A-250305-H7-Lib-1_counts.csv">A-250305-H7-Lib-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/A-250305-H7-Lib-2_counts.csv">A-250305-H7-Lib-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/B-250305-H7-Lib-1_counts.csv">B-250305-H7-Lib-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/barcode_counts/B-250305-H7-Lib-2_counts.csv">B-250305-H7-Lib-2</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293T_entry_func_effects.html">293T_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation latent-phenotype effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293T_entry_latent_effects.html">293T_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_LibA-250306-293T-func-1.html">LibA-250306-293T-func-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibA-250306-293T-func-2.html">LibA-250306-293T-func-2</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-250306-293T-func-1.html">LibB-250306-293T-func-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-250306-293T-func-2.html">LibB-250306-293T-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_293T_entry.html">293T_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_scores/LibA-250306-293T-func-1_func_scores.csv">LibA-250306-293T-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_scores/LibA-250306-293T-func-2_func_scores.csv">LibA-250306-293T-func-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_scores/LibB-250306-293T-func-1_func_scores.csv">LibB-250306-293T-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_scores/LibB-250306-293T-func-2_func_scores.csv">LibB-250306-293T-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/by_selection/LibA-250306-293T-func-1_func_effects.csv">LibA-250306-293T-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/by_selection/LibA-250306-293T-func-2_func_effects.csv">LibA-250306-293T-func-2</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/by_selection/LibB-250306-293T-func-1_func_effects.csv">LibB-250306-293T-func-1</a></li>
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/by_selection/LibB-250306-293T-func-2_func_effects.csv">LibB-250306-293T-func-2</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/averages/293T_entry_func_effects.csv">293T_entry</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main/results/func_effects/averages/293T_entry_func_effects.csv">293T_entry</a></li>
+</ul></details>
+
+</li>
 </ul>
