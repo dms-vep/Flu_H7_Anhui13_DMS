@@ -61,6 +61,16 @@ func_scores:
     pre_selection_sample: B-250305-H7-VSVG-2
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
+  LibB-250306-293T-func-1-swap:
+    post_selection_sample: B-250305-H7-Lib-1
+    pre_selection_sample: B-250305-H7-VSVG-2
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-250306-293T-func-2-swap:
+    post_selection_sample: B-250305-H7-Lib-2
+    pre_selection_sample: B-250305-H7-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -126,7 +136,7 @@ avg_func_effects:
     <<: *avg_func_effects_default
     title: Mutation effects on HA-mediated entry into 293T cells
     selections:
-      - LibA-250306-293T-func-1
-      - LibA-250306-293T-func-2
+      #- LibA-250306-293T-func-1
+      #- LibA-250306-293T-func-2
       - LibB-250306-293T-func-1
       - LibB-250306-293T-func-2
