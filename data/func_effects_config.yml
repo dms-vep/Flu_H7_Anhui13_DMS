@@ -41,36 +41,67 @@ global_epistasis_params: &global_epistasis_params
 #  - `func_score_params`: parameters for computing functional scores
 #  - `global_epistasis_params`: parameters for fitting global epistasis model
 func_scores:
-  LibA-250306-293T-func-1:
-    post_selection_sample: A-250305-H7-Lib-1
-    pre_selection_sample: A-250305-H7-VSVG-1
+  LibA-250521-293-2-3-func-1:
+    post_selection_sample: A-250521-H7-2-3-1
+    pre_selection_sample: A-250521-H7-mix-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibA-250306-293T-func-2:
-    post_selection_sample: A-250305-H7-Lib-2
-    pre_selection_sample: A-250305-H7-VSVG-2
+  LibA-250521-293-2-3-func-2:
+    post_selection_sample: A-250521-H7-2-3-2
+    pre_selection_sample: A-250521-H7-mix-VSVG-2
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibB-250306-293T-func-1:
-    post_selection_sample: B-250305-H7-Lib-1
-    pre_selection_sample: B-250305-H7-VSVG-1
+  LibB-250521-293-2-3-func-1:
+    post_selection_sample: B-250521-H7-2-3-1
+    pre_selection_sample: B-250521-H7-mix-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibB-250306-293T-func-2:
-    post_selection_sample: B-250305-H7-Lib-2
-    pre_selection_sample: B-250305-H7-VSVG-2
+  LibB-250521-293-2-3-func-2:
+    post_selection_sample: B-250521-H7-2-3-2
+    pre_selection_sample: B-250521-H7-mix-VSVG-2
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibB-250306-293T-func-1-swap:
-    post_selection_sample: B-250305-H7-Lib-1
-    pre_selection_sample: B-250305-H7-VSVG-2
+  LibA-250521-293-2-6-func-1:
+    post_selection_sample: A-250521-H7-2-6-1
+    pre_selection_sample: A-250521-H7-mix-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibB-250306-293T-func-2-swap:
-    post_selection_sample: B-250305-H7-Lib-2
-    pre_selection_sample: B-250305-H7-VSVG-1
+  LibA-250521-293-2-6-func-2:
+    post_selection_sample: A-250521-H7-2-6-2
+    pre_selection_sample: A-250521-H7-mix-VSVG-2
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
+  LibB-250521-293-2-6-func-1:
+    post_selection_sample: B-250521-H7-2-6-1
+    pre_selection_sample: B-250521-H7-mix-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-250521-293-2-6-func-2:
+    post_selection_sample: B-250521-H7-2-6-2
+    pre_selection_sample: B-250521-H7-mix-VSVG-2
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibA-250521-293-mix-func-1:
+    post_selection_sample: A-250521-H7-mix-1
+    pre_selection_sample: A-250521-H7-mix-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibA-250521-293-mix-func-2:
+    post_selection_sample: A-250521-H7-mix-2
+    pre_selection_sample: A-250521-H7-mix-VSVG-2
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-250521-293-mix-func-1:
+    post_selection_sample: B-250521-H7-mix-1
+    pre_selection_sample: B-250521-H7-mix-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-250521-293-mix-func-2:
+    post_selection_sample: B-250521-H7-mix-2
+    pre_selection_sample: B-250521-H7-mix-VSVG-2
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -132,11 +163,27 @@ avg_func_effects_default: &avg_func_effects_default
 
 # Define the functional effect conditions to average
 avg_func_effects:
-  293T_entry:
+  293_2-3_entry:
     <<: *avg_func_effects_default
-    title: Mutation effects on HA-mediated entry into 293T cells
+    title: Mutation effects on HA-mediated entry into 293 2,3 cells
     selections:
-      #- LibA-250306-293T-func-1
-      #- LibA-250306-293T-func-2
-      - LibB-250306-293T-func-1
-      - LibB-250306-293T-func-2
+      - LibA-250521-293-2-3-func-1
+      - LibA-250521-293-2-3-func-2
+      - LibB-250521-293-2-3-func-1
+      - LibB-250521-293-2-3-func-2
+  293_2-6_entry:
+    <<: *avg_func_effects_default
+    title: Mutation effects on HA-mediated entry into 293 2,6 cells
+    selections:
+      - LibA-250521-293-2-6-func-1
+      - LibA-250521-293-2-6-func-2
+      - LibB-250521-293-2-6-func-1
+      - LibB-250521-293-2-6-func-2
+  293_mix_entry:
+    <<: *avg_func_effects_default
+    title: Mutation effects on HA-mediated entry into 293 2,3 and 2,6 mix cells
+    selections:
+      - LibA-250521-293-mix-func-1
+      - LibA-250521-293-mix-func-2
+      - LibB-250521-293-mix-func-1
+      - LibB-250521-293-mix-func-2

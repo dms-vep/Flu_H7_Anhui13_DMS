@@ -1,0 +1,12 @@
+name: dms-viz
+
+dependencies:
+  - biopython=1.83
+  - jupyterlab
+  - pandas=2.1 # required because of https://github.com/matsengrp/multidms/issues/128
+  - papermill=2.4
+  - pip
+  - pyarrow
+  - python=3.11
+  - pip:
+      - configure-dms-viz==1.6.0
