@@ -17,7 +17,7 @@ func_scores_params_default: &func_scores_params_default
   # or frequencies that may not have sufficient statistics for good estimates.
   min_pre_selection_count: 10  # drop variants < this many pre-selection counts
   # !!! Make min_pre_selection_frac LARGER for larger libraries, such 0.1 / (library size) !!!
-  min_pre_selection_frac: 0.000001  # drop variants that are < this fraction of all counts
+  min_pre_selection_frac: 0.0000025  # drop variants that are < this fraction of all counts
 
 # Define default parameters for fitting global epistasis models to each
 # individual selection to get mutationo effects.
