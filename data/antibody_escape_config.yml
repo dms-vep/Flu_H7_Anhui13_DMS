@@ -204,10 +204,10 @@ stability_selections:
         use_in_fit: true
       A-250703-H7-mix-pH-5.5:
         concentration: 1.9
-        use_in_fit: false
+        use_in_fit: true
       A-250703-H7-mix-pH-5.3:
         concentration: 2.1
-        use_in_fit: false
+        use_in_fit: true
 
   LibB-250703-pH:
      neut_standard_name: neut_standard
@@ -228,10 +228,10 @@ stability_selections:
         use_in_fit: true
       B-250703-H7-mix-pH-5.5:
         concentration: 1.9
-        use_in_fit: false
+        use_in_fit: true
       B-250703-H7-mix-pH-5.3:
         concentration: 2.1
-        use_in_fit: false
+        use_in_fit: true
 
 
 # --------------------------------------------------------------------------------------
