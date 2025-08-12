@@ -185,51 +185,51 @@ plot_hide_stats_default: &plot_hide_stats_default
 # define the stability selections
 stability_selections:      
 
-  LibA-250703-pH:
+  LibA-250724-pH:
      neut_standard_name: neut_standard
      prob_escape_filters: *prob_escape_filters_default
      polyclonal_params: *polyclonal_params_default
      escape_plot_kwargs: *escape_plot_kwargs_default
      plot_hide_stats: *plot_hide_stats_default
-     no_antibody_sample: A-250703-H7-mix-pH-media
+     no_antibody_sample: A-250724-H7-mix-pH-media
      antibody_samples:
-      A-250703-H7-mix-pH-6.1:
+      A-250724-H7-mix-pH-6.1:
         concentration: 1.3
         use_in_fit: true
-      A-250703-H7-mix-pH-5.9:
+      A-250724-H7-mix-pH-5.9:
         concentration: 1.5
         use_in_fit: true
-      A-250703-H7-mix-pH-5.7:
+      A-250724-H7-mix-pH-5.7:
         concentration: 1.7
         use_in_fit: true
-      A-250703-H7-mix-pH-5.5:
+      A-250724-H7-mix-pH-5.5:
         concentration: 1.9
         use_in_fit: true
-      A-250703-H7-mix-pH-5.3:
+      A-250724-H7-mix-pH-5.3:
         concentration: 2.1
         use_in_fit: true
 
-  LibB-250703-pH:
+  LibB-250724-pH:
      neut_standard_name: neut_standard
      prob_escape_filters: *prob_escape_filters_default
      polyclonal_params: *polyclonal_params_default
      escape_plot_kwargs: *escape_plot_kwargs_default
      plot_hide_stats: *plot_hide_stats_default
-     no_antibody_sample: B-250703-H7-mix-pH-media
+     no_antibody_sample: B-250724-H7-mix-pH-media
      antibody_samples:
-      B-250703-H7-mix-pH-6.1:
+      B-250724-H7-mix-pH-6.1:
         concentration: 1.3
         use_in_fit: true
-      B-250703-H7-mix-pH-5.9:
+      B-250724-H7-mix-pH-5.9:
         concentration: 1.5
         use_in_fit: true
-      B-250703-H7-mix-pH-5.7:
+      B-250724-H7-mix-pH-5.7:
         concentration: 1.7
         use_in_fit: true
-      B-250703-H7-mix-pH-5.5:
+      B-250724-H7-mix-pH-5.5:
         concentration: 1.9
         use_in_fit: true
-      B-250703-H7-mix-pH-5.3:
+      B-250724-H7-mix-pH-5.3:
         concentration: 2.1
         use_in_fit: true
 
@@ -258,7 +258,7 @@ avg_escape_plot_kwargs_default: &avg_escape_plot_kwargs_default
 
 # Define defaults for each antibody/serum, used via the merge (<<) operator
 avg_antibody_escape_default: &avg_antibody_escape_default
-  icXX: 90  # IC90
+  icXX: 50  # IC90
   show_icXX_in_docs: false  # Do we link ICXX plots/CSVs in docs? Missing equates to false.
   escape_plot_kwargs:
     <<: *avg_escape_plot_kwargs_default
@@ -322,5 +322,5 @@ avg_stability:
       per_model_tooltip: true
     plot_hide_stats: *plot_hide_stats_default
     selections:
-      - LibA-250703-pH
-      - LibB-250703-pH
+      - LibA-250724-pH
+      - LibB-250724-pH
