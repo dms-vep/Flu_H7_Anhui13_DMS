@@ -27,15 +27,15 @@
 #    - `stat_name`: name assigned to statistic, eg, "escape" or "receptor affinity".
 
 assays:
-#  antibody_escape:
-#    title: Antibody/serum escape
-#    selections: antibody_selections
-#    averages: avg_antibody_escape
-##    prob_escape_scale:
- #     type: symlog
- #     constant: 0.04
- #   scale_stat: 1
- #   stat_name: escape
+  antibody_escape:
+    title: Antibody/serum escape
+    selections: antibody_selections
+    averages: avg_antibody_escape
+    prob_escape_scale:
+      type: symlog
+      constant: 0.04
+    scale_stat: 1
+    stat_name: escape
   stability:
     title: Stability
     selections: stability_selections
@@ -138,29 +138,81 @@ plot_hide_stats_default: &plot_hide_stats_default
       times_seen: 2
 
 # define the antibody selections
-# antibody_selections:
+antibody_selections:
 
-  # SCH23_y2021_s056 =======================================================
-  # A-240628-SCH23-y2021-s056:
-  #   neut_standard_name: neut_standard
-  #   prob_escape_filters: *prob_escape_filters_default
-  #   polyclonal_params: *polyclonal_params_default
-  #   escape_plot_kwargs: *escape_plot_kwargs_default
-  #   plot_hide_stats: *plot_hide_stats_default
-  #   no_antibody_sample: A-240628-no-antibody-1
-  #   antibody_samples:
-  #    A-240628-SCH23-y2021-s056-0.00165:
-  #     concentration: 0.00165
-  #     use_in_fit: false
-  #    A-240628-SCH23-y2021-s056-0.00495:
-  #     concentration: 0.00495
-  #     use_in_fit: false
-  #    A-240628-SCH23-y2021-s056-0.0066:
-  #     concentration: 0.0066
-  #     use_in_fit: true
-  #    A-240628-SCH23-y2021-s056-0.0165:
-  #     concentration: 0.0165
-  #     use_in_fit: true
+  #1A8 =======================================================
+  A-251009-H7-mix-1A8:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: A-251009-H7-mix-no-ab
+    antibody_samples:
+     A-251009-H7-mix-1A8-IC99:
+      concentration: 0.00043
+      use_in_fit: true
+     A-251009-H7-mix-1A8-IC99x3:
+      concentration: 0.00128
+      use_in_fit: true
+     A-251009-H7-mix-1A8-IC99x12:
+      concentration: 0.00511
+      use_in_fit: true
+
+  B-251009-H7-mix-1A8:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: B-251009-H7-mix-no-ab
+    antibody_samples:
+     B-251009-H7-mix-1A8-IC99:
+      concentration: 0.00043
+      use_in_fit: true
+     B-251009-H7-mix-1A8-IC99x3:
+      concentration: 0.00128
+      use_in_fit: true
+     B-251009-H7-mix-1A8-IC99x12:
+      concentration: 0.00511
+      use_in_fit: true
+
+ #1B2 =======================================================
+  A-251009-H7-mix-1B2:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: A-251009-H7-mix-no-ab
+    antibody_samples:
+     A-251009-H7-mix-1B2-IC99:
+      concentration: 0.00043
+      use_in_fit: true
+     A-251009-H7-mix-1B2-IC99x3:
+      concentration: 0.00128
+      use_in_fit: true
+     A-251009-H7-mix-1B2-IC99x12:
+      concentration: 0.00511
+      use_in_fit: true
+
+  B-251009-H7-mix-1B2:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: B-251009-H7-mix-no-ab
+    antibody_samples:
+     B-251009-H7-mix-1B2-IC99:
+      concentration: 0.00043
+      use_in_fit: true
+     B-251009-H7-mix-1B2-IC99x3:
+      concentration: 0.00128
+      use_in_fit: true
+     B-251009-H7-mix-1B2-IC99x12:
+      concentration: 0.00511
+      use_in_fit: true
 
   # B-240822-SCH23-y2021-s056:
   #   neut_standard_name: neut_standard
@@ -272,15 +324,22 @@ avg_antibody_escape_default: &avg_antibody_escape_default
 
     The *minimum max* slider is useful to select the sites where mutations have the largest effect.
 
-# Define the antibodies/sera escapes to average
-# avg_antibody_escape:
-#   SCH23-y2021-s056:
-#     <<: *avg_antibody_escape_default
-#     title: Escape map for SCH23-y2021-s056
-#     selections:
-#      - A-240628-SCH23-y2021-s056
-#      - B-240822-SCH23-y2021-s056
+#Define the antibodies/sera escapes to average
+avg_antibody_escape:
+  1A8:
+    <<: *avg_antibody_escape_default
+    title: Escape map for 1A8
+    selections:
+     - A-251009-H7-mix-1A8
+     - B-251009-H7-mix-1A8
   
+  1B2:
+    <<: *avg_antibody_escape_default
+    title: Escape map for 1B2
+    selections:
+     - A-251009-H7-mix-1B2
+     - B-251009-H7-mix-1B2
+
 #   SCH23-y2016-s037:
 #     <<: *avg_antibody_escape_default
 #     title: Escape map for SCH23-y2016-s037

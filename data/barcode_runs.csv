@@ -27,3 +27,17 @@ B-250724-H7-mix-pH-5.9,B,20250724,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/2025072
 B-250724-H7-mix-pH-5.7,B,20250724,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250724_LH00740_0110_B233MCLLT3/Unaligned/H7_pH_sel_V2/mix_Lib_B_pH5-7_S46_L002_R1_001.fastq.gz
 B-250724-H7-mix-pH-5.5,B,20250724,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250724_LH00740_0110_B233MCLLT3/Unaligned/H7_pH_sel_V2/mix_Lib_B_pH5-5_S47_L002_R1_001.fastq.gz
 B-250724-H7-mix-pH-5.3,B,20250724,/fh/fast/bloom_j/SR/ngs/illumina/jahn2/20250724_LH00740_0110_B233MCLLT3/Unaligned/H7_pH_sel_V2/mix_Lib_B_pH5-3_S48_L002_R1_001.fastq.gz
+A-251009-H7-mix-1A8-IC99,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1A8_IC99_S21_L002_R1_001.fastq.gz
+A-251009-H7-mix-1A8-IC99x3,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1A8_IC99x3_S22_L002_R1_001.fastq.gz
+A-251009-H7-mix-1A8-IC99x12,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1A8_IC99x12_S23_L002_R1_001.fastq.gz
+B-251009-H7-mix-1A8-IC99,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1A8_IC99_S27_L002_R1_001.fastq.gz
+B-251009-H7-mix-1A8-IC99x3,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1A8_IC99x3_S28_L002_R1_001.fastq.gz
+B-251009-H7-mix-1A8-IC99x12,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1A8_IC99x12_S29_L002_R1_001.fastq.gz
+A-251009-H7-mix-1B2-IC99,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1B2_IC99_S24_L002_R1_001.fastq.gz
+A-251009-H7-mix-1B2-IC99x3,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1B2_IC99x3_S25_L002_R1_001.fastq.gz
+A-251009-H7-mix-1B2-IC99x12,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_1B2_IC99x12_S26_L002_R1_001.fastq.gz
+B-251009-H7-mix-1B2-IC99,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1B2_IC99_S30_L002_R1_001.fastq.gz
+B-251009-H7-mix-1B2-IC99x3,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1B2_IC99x3_S31_L002_R1_001.fastq.gz
+B-251009-H7-mix-1B2-IC99x12,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_1B2_IC99x12_S32_L002_R1_001.fastq.gz
+A-251009-H7-mix-no-ab,A,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibA_no_Ab_S19_L002_R1_001.fastq.gz
+B-251009-H7-mix-no-ab,B,20251009,/fh/fast/bloom_j/SR/ngs/illumina/wren/20251008_LH00740_0141_A235KKJLT3/Unaligned/WR_JA_pool_250926/H7_mix_LibB_no_Ab_S20_L002_R1_001.fastq.gz
