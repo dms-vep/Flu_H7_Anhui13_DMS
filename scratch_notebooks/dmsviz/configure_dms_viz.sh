@@ -1,15 +1,15 @@
 #!/bin/bash
 
 configure-dms-viz format \
-   --name "H7 stability Scores 2_6" \
-   --input "2-6_entry_func_effects_sequential.csv" \
-   --metric "effect" \
-   --metric-name "effect" \
+   --name "H7 1A8 Ab selection" \
+   --input "H7_ab_1A8.csv" \
+   --metric "escape_mean" \
+   --metric-name "escape_mean" \
    --structure "4r8w_trimer.pdb" \
    --heatmap-limits '-4, 0 , 1' \
    --included-chains 'A B' \
    --excluded-chains 'L H' \
-   --output H7_2-6_functional.json
+   --output H7_1A8_ab_selection.json
 
 
 
