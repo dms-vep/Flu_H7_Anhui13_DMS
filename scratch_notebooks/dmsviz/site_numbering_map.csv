@@ -316,10 +316,10 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 315,324,P,HA1,outside RBS,A
 316,325,E,HA1,outside RBS,A
 317,326,I,HA1,outside RBS,A
-318,327,P,HA2,outside RBS,A
-319,328,K,HA2,outside RBS,A
-320,328a,G,HA2,outside RBS,A
-321,329,R,HA2,outside RBS,A
+318,327,P,cleavage site,outside RBS,A
+319,328,K,cleavage site,outside RBS,A
+320,328a,G,cleavage site,outside RBS,A
+321,329,R,cleavage site,outside RBS,A
 322,330,G,HA2,outside RBS,B
 323,331,L,HA2,outside RBS,B
 324,332,F,HA2,outside RBS,B
