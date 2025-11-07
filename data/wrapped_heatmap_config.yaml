@@ -1,0 +1,13 @@
+H7_Anhui13_293_mix:
+  data_csv: results/func_effects/averages/293_mix_entry_func_effects.csv
+  title: "Effect of mutations to H7 Anhui13 on entry in 293 mix cells"
+  effect_col: "effect"
+  data_query_str: ""
+  sites_per_row: 126
+  site_label_freq: 20
+  site_label_start: 5  # start labeling at this site
+  color_scheme: redblue
+  fixed_min: -4
+  fixed_max: 2
+  alphabet: "RKHDEQNSTYWFAILMVGPC"
+  # dark_gray_muts: null   # optional; add if you want the gray overlay feature
