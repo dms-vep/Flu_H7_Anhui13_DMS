@@ -10,4 +10,5 @@ H7_Anhui13_293_mix:
   fixed_min: -4
   fixed_max: 2
   alphabet: "RKHDEQNSTYWFAILMVGPC"
+  chart_png: "results/wrapped_heatmaps/H7_Anhui13_293_mix.png"  # enable PNG export
   # dark_gray_muts: null   # optional; add if you want the gray overlay feature
