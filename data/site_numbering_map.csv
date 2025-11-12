@@ -32,15 +32,15 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 31,41,E,HA1,outside RBS,A
 32,42,T,HA1,outside RBS,A
 33,43,V,HA1,outside RBS,A
-34,44,E,HA1,outside RBS,A
-35,45,R,HA1,outside RBS,A
-36,46,T,HA1,outside RBS,A
-37,47,N,HA1,outside RBS,A
-38,48,I,HA1,outside RBS,A
+34,44,E,epitope-C,outside RBS,A
+35,45,R,epitope-C,outside RBS,A
+36,46,T,epitope-C,outside RBS,A
+37,47,N,epitope-C,outside RBS,A
+38,48,I,epitope-C,outside RBS,A
 39,49,P,epitope-C,outside RBS,A
 40,50,R,epitope-C,outside RBS,A
-41,51,I,HA1,outside RBS,A
-42,52,C,HA1,outside RBS,A
+41,51,I,epitope-C,outside RBS,A
+42,52,C,epitope-C,outside RBS,A
 43,53,S,epitope-C,outside RBS,A
 44,54,K,epitope-C,outside RBS,A
 45,55,G,HA1,outside RBS,A
@@ -52,8 +52,8 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 51,61,L,HA1,outside RBS,A
 52,62,G,epitope-E,outside RBS,A
 53,63,Q,epitope-E,outside RBS,A
-54,64,C,HA1,outside RBS,A
-55,65,G,HA1,outside RBS,A
+54,64,C,epitope-E,outside RBS,A
+55,65,G,epitope-E,outside RBS,A
 56,66,L,HA1,outside RBS,A
 57,67,L,HA1,outside RBS,A
 58,68,G,HA1,outside RBS,A
@@ -63,26 +63,26 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 62,72,G,HA1,outside RBS,A
 63,73,P,HA1,outside RBS,A
 64,74,P,HA1,outside RBS,A
-65,75,Q,epitope-E,outside RBS,A
+65,75,Q,HA1,outside RBS,A
 66,76,C,HA1,outside RBS,A
-67,77,D,epitope-E,outside RBS,A
+67,77,D,HA1,outside RBS,A
 68,78,Q,epitope-E,outside RBS,A
 69,79,F,epitope-E,outside RBS,A
 70,80,L,epitope-E,outside RBS,A
 71,81,E,epitope-E,outside RBS,A
 72,82,F,epitope-E,outside RBS,A
-73,83,S,HA1,outside RBS,A
-74,84,A,HA1,outside RBS,A
-75,85,D,HA1,outside RBS,A
-76,86,L,HA1,outside RBS,A
-77,87,I,HA1,outside RBS,A
-78,88,I,HA1,outside RBS,A
-79,89,E,HA1,outside RBS,A
+73,83,S,epitope-E,outside RBS,A
+74,84,A,epitope-E,outside RBS,A
+75,85,D,epitope-E,outside RBS,A
+76,86,L,epitope-E,outside RBS,A
+77,87,I,epitope-E,outside RBS,A
+78,88,I,epitope-E,outside RBS,A
+79,89,E,epitope-E,outside RBS,A
 80,90,R,epitope-E,outside RBS,A
 81,91,R,epitope-E,outside RBS,A
 82,92,E,epitope-E,outside RBS,A
-83,93,G,HA1,outside RBS,A
-84,94,S,HA1,outside RBS,A
+83,93,G,epitope-E,outside RBS,A
+84,94,S,epitope-E,outside RBS,A
 85,95,D,HA1,outside RBS,A
 86,96,V,HA1,outside RBS,A
 87,97,C,HA1,outside RBS,A
@@ -109,20 +109,20 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 108,118,I,HA1,outside RBS,A
 109,119,D,HA1,outside RBS,A
 110,120,K,HA1,outside RBS,A
-111,121,E,epitope-A,outside RBS,A
+111,121,E,HA1,outside RBS,A
 112,122,A,epitope-A,outside RBS,A
 113,123,M,epitope-A,outside RBS,A
 114,124,G,epitope-A,outside RBS,A
 115,125,F,epitope-A,outside RBS,A
 116,126,T,epitope-A,outside RBS,A
 117,127,Y,epitope-A,outside RBS,A
-118,128,S,epitope-A,outside RBS,A
+118,128,S,epitope-A,RBS 130-loop,A
 119,129,G,epitope-A,outside RBS,A
-120,130,I,epitope-A,outside RBS,A
-121,131,R,epitope-A,outside RBS,A
+120,130,I,epitope-A,RBS 130-loop,A
+121,131,R,epitope-A,RBS 130-loop,A
 122,132,T,epitope-A,outside RBS,A
-123,133,N,epitope-A,outside RBS,A
-124,134,G,epitope-A,outside RBS,A
+123,133,N,epitope-A,RBS 130-loop,A
+124,134,G,epitope-A,RBS 130-loop,A
 125,135,A,epitope-A,RBS 130-loop,A
 126,136,T,epitope-A,RBS 130-loop,A
 127,137,S,epitope-A,RBS 130-loop,A
@@ -146,49 +146,49 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 145,156,S,epitope-B,RBS 150-loop,A
 146,157,N,epitope-B,RBS 150-loop,A
 147,158,T,epitope-B,RBS 150-loop,A
-148,158a,D,HA1,RBS 150-loop,A
-149,158b,N,HA1,RBS 150-loop,A
+148,158a,D,epitope-B,RBS 150-loop,A
+149,158b,N,epitope-B,RBS 150-loop,A
 150,159,A,epitope-B,RBS 150-loop,A
 151,160,A,epitope-B,RBS 150-loop,A
-152,161,F,HA1,RBS 150-loop,A
-153,162,P,HA1,RBS 150-loop,A
-154,163,Q,HA1,RBS 150-loop,A
+152,161,F,HA1,outside RBS,A
+153,162,P,HA1,outside RBS,A
+154,163,Q,HA1,outside RBS,A
 155,164,M,HA1,outside RBS,A
 156,165,T,HA1,outside RBS,A
-157,166,K,HA1,outside RBS,A
+157,166,K,epitope-D,outside RBS,A
 158,167,S,epitope-D,outside RBS,A
-159,168,Y,HA1,outside RBS,A
-160,169,K,HA1,outside RBS,A
-161,170,N,HA1,outside RBS,A
-162,171,T,HA1,outside RBS,A
-163,172,R,HA1,outside RBS,A
-164,173,K,HA1,outside RBS,A
-165,174,S,HA1,outside RBS,A
-166,175,P,HA1,outside RBS,A
-167,176,A,HA1,outside RBS,A
-168,177,L,HA1,outside RBS,A
-169,178,I,HA1,outside RBS,A
-170,179,V,HA1,outside RBS,A
-171,180,W,HA1,outside RBS,A
-172,181,G,HA1,outside RBS,A
+159,168,Y,epitope-D,outside RBS,A
+160,169,K,epitope-D,outside RBS,A
+161,170,N,epitope-D,outside RBS,A
+162,171,T,epitope-D,outside RBS,A
+163,172,R,epitope-D,outside RBS,A
+164,173,K,epitope-D,outside RBS,A
+165,174,S,epitope-D,outside RBS,A
+166,175,P,epitope-D,outside RBS,A
+167,176,A,epitope-D,outside RBS,A
+168,177,L,epitope-D,outside RBS,A
+169,178,I,epitope-D,outside RBS,A
+170,179,V,epitope-D,outside RBS,A
+171,180,W,epitope-D,outside RBS,A
+172,181,G,epitope-D,outside RBS,A
 173,182,I,HA1,outside RBS,A
 174,183,H,HA1,RBS base,A
 175,184,H,HA1,outside RBS,A
 176,185,S,HA1,outside RBS,A
-177,186,V,epitope-B,outside RBS,A
+177,186,V,epitope-B,RBS 190-loop,A
 178,187,S,epitope-B,outside RBS,A
 179,188,T,epitope-B,outside RBS,A
-180,189,A,epitope-B,outside RBS,A
+180,189,A,epitope-B,RBS 190-loop,A
 181,190,E,epitope-B,RBS 190-loop,A
 182,191,Q,epitope-B,RBS 190-loop,A
 183,192,T,epitope-B,RBS 190-loop,A
 184,193,K,epitope-B,RBS 190-loop,A
 185,194,L,epitope-B,RBS 190-loop,A
-186,195,Y,HA1,RBS 190-loop,A
+186,195,Y,epitope-B,RBS base,A
 187,196,G,epitope-B,RBS 190-loop,A
 188,197,S,epitope-B,RBS 190-loop,A
 189,198,G,epitope-B,RBS 190-loop,A
-190,199,N,epitope-B,outside RBS,A
+190,199,N,HA1,outside RBS,A
 191,200,K,HA1,outside RBS,A
 192,201,L,epitope-D,outside RBS,A
 193,202,V,epitope-D,outside RBS,A
@@ -198,25 +198,25 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 197,206,S,epitope-D,outside RBS,A
 198,207,S,epitope-D,outside RBS,A
 199,208,N,epitope-D,outside RBS,A
-200,209,Y,HA1,outside RBS,A
-201,210,Q,HA1,outside RBS,A
-202,211,Q,HA1,outside RBS,A
-203,212,S,HA1,outside RBS,A
-204,213,F,HA1,outside RBS,A
+200,209,Y,epitope-D,outside RBS,A
+201,210,Q,epitope-D,outside RBS,A
+202,211,Q,epitope-D,outside RBS,A
+203,212,S,epitope-D,outside RBS,A
+204,213,F,epitope-D,outside RBS,A
 205,214,V,epitope-D,outside RBS,A
-206,215,P,HA1,outside RBS,A
+206,215,P,epitope-D,outside RBS,A
 207,216,S,epitope-D,outside RBS,A
 208,217,P,epitope-D,outside RBS,A
 209,218,G,epitope-D,outside RBS,A
 210,219,A,epitope-D,outside RBS,A
-211,220,R,epitope-D,outside RBS,A
+211,220,R,HA1,outside RBS,A
 212,221,P,HA1,RBS 220-loop,A
-213,222,Q,epitope-D,RBS 220-loop,A
-214,223,V,epitope-D,RBS 220-loop,A
-215,224,N,epitope-D,RBS 220-loop,A
-216,225,G,epitope-D,RBS 220-loop,A
-217,226,L,epitope-D,RBS 220-loop,A
-218,227,S,epitope-D,RBS 220-loop,A
+213,222,Q,HA1,RBS 220-loop,A
+214,223,V,HA1,RBS 220-loop,A
+215,224,N,HA1,RBS 220-loop,A
+216,225,G,HA1,RBS 220-loop,A
+217,226,L,HA1,RBS 220-loop,A
+218,227,S,HA1,RBS 220-loop,A
 219,228,G,HA1,RBS 220-loop,A
 220,229,R,HA1,outside RBS,A
 221,230,I,HA1,outside RBS,A
@@ -231,7 +231,7 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 230,239,P,HA1,outside RBS,A
 231,240,N,HA1,outside RBS,A
 232,241,D,HA1,outside RBS,A
-233,242,T,epitope-D,outside RBS,A
+233,242,T,HA1,outside RBS,A
 234,243,V,HA1,outside RBS,A
 235,244,T,HA1,outside RBS,A
 236,245,F,HA1,outside RBS,A
@@ -249,27 +249,27 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 248,257,A,HA1,outside RBS,A
 249,258,S,HA1,outside RBS,A
 250,259,F,HA1,outside RBS,A
-251,260,L,HA1,outside RBS,A
-252,261,R,HA1,outside RBS,A
-253,261a,G,HA1,outside RBS,A
-254,263,K,HA1,outside RBS,A
-255,264,S,HA1,outside RBS,A
-256,265,M,HA1,outside RBS,A
-257,266,G,HA1,outside RBS,A
-258,267,I,HA1,outside RBS,A
-259,268,Q,HA1,outside RBS,A
-260,269,S,HA1,outside RBS,A
-261,270,G,epitope-C,outside RBS,A
-262,271,V,epitope-C,outside RBS,A
-263,272,Q,epitope-C,outside RBS,A
-264,273,V,epitope-C,outside RBS,A
-265,274,D,epitope-C,outside RBS,A
-266,275,A,epitope-C,outside RBS,A
-267,276,N,epitope-C,outside RBS,A
+251,260,L,epitope-E,outside RBS,A
+252,261,R,epitope-E,outside RBS,A
+253,262,G,epitope-E,outside RBS,A
+254,263,K,epitope-E,outside RBS,A
+255,265,S,epitope-E,outside RBS,A
+256,266,M,HA1,outside RBS,A
+257,267,G,HA1,outside RBS,A
+258,268,I,HA1,outside RBS,A
+259,269,Q,HA1,outside RBS,A
+260,270,S,HA1,outside RBS,A
+261,271,G,HA1,outside RBS,A
+262,272,V,HA1,outside RBS,A
+263,273,Q,epitope-C,outside RBS,A
+264,274,V,epitope-C,outside RBS,A
+265,275,D,epitope-C,outside RBS,A
+266,276,A,epitope-C,outside RBS,A
+267,276a,N,epitope-C,outside RBS,A
 268,277,C,epitope-C,outside RBS,A
 269,278,E,epitope-C,outside RBS,A
-270,279,G,HA1,outside RBS,A
-271,280,D,HA1,outside RBS,A
+270,279,G,epitope-C,outside RBS,A
+271,280,D,epitope-C,outside RBS,A
 272,281,C,HA1,outside RBS,A
 273,282,Y,HA1,outside RBS,A
 274,283,H,HA1,outside RBS,A
@@ -315,10 +315,10 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 314,323,V,HA1,outside RBS,A
 315,324,P,HA1,outside RBS,A
 316,325,E,HA1,outside RBS,A
-317,326,I,HA1,outside RBS,A
-318,327,P,cleavage site,outside RBS,A
-319,328,K,cleavage site,outside RBS,A
-320,328a,G,cleavage site,outside RBS,A
+317,325a,I,HA1,outside RBS,A
+318,326,P,cleavage site,outside RBS,A
+319,327,K,cleavage site,outside RBS,A
+320,328,G,cleavage site,outside RBS,A
 321,329,R,cleavage site,outside RBS,A
 322,330,G,HA2,outside RBS,B
 323,331,L,HA2,outside RBS,B
@@ -489,19 +489,19 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 488,496,M,HA2,outside RBS,B
 489,497,Q,HA2,outside RBS,B
 490,498,N,HA2,outside RBS,B
-491,499,R,HA2,outside RBS,B
-492,500,I,HA2,outside RBS,
-493,501,Q,HA2,outside RBS,
-494,502,I,HA2,outside RBS,
-495,503,D,HA2,outside RBS,
-496,504,P,HA2,outside RBS,
-497,505,V,HA2,outside RBS,
-498,506,K,HA2,outside RBS,
-499,507,L,HA2,outside RBS,
-500,508,S,HA2,outside RBS,
-501,509,S,HA2,outside RBS,
-502,510,G,HA2,outside RBS,
-503,511,Y,HA2,outside RBS,
-504,512,K,HA2,outside RBS,
-505,513,D,HA2,outside RBS,
-506,514,V,HA2,outside RBS,
+491,499,R,Transmembrane domain,outside RBS,B
+492,500,I,Transmembrane domain,outside RBS,B
+493,501,Q,Transmembrane domain,outside RBS,B
+494,502,I,Transmembrane domain,outside RBS,B
+495,503,D,Transmembrane domain,outside RBS,B
+496,504,P,Transmembrane domain,outside RBS,B
+497,505,V,Transmembrane domain,outside RBS,B
+498,506,K,Transmembrane domain,outside RBS,B
+499,507,L,Transmembrane domain,outside RBS,B
+500,508,S,Transmembrane domain,outside RBS,B
+501,509,S,Transmembrane domain,outside RBS,B
+502,510,G,Transmembrane domain,outside RBS,B
+503,511,Y,Transmembrane domain,outside RBS,B
+504,512,K,Transmembrane domain,outside RBS,B
+505,513,D,Transmembrane domain,outside RBS,B
+506,514,V,Transmembrane domain,outside RBS,B
