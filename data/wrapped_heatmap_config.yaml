@@ -3,12 +3,12 @@ H7_Anhui13_293_mix:
   title: "Effect of mutations to H7 Anhui13 on entry in 293 mix cells"
   effect_col: "effect"
   data_query_str: ""
-  sites_per_row: 126
+  sites_per_row: 127
   site_label_freq: 20
   site_label_start: 5  # start labeling at this site
   color_scheme: redblue
-  fixed_min: -4
-  fixed_max: 2
+  fixed_min: -5.014
+  fixed_max: 1.426
   alphabet: "RKHDEQNSTYWFAILMVGPC"
   chart_png: "results/wrapped_heatmaps/H7_Anhui13_293_mix.png"  # enable PNG export
   # dark_gray_muts: null   # optional; add if you want the gray overlay feature

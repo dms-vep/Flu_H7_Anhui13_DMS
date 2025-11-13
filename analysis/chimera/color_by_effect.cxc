@@ -1,0 +1,260 @@
+# ChimeraX command script to color structure by functional effects
+# Orange-white-blue gradient matching the wrapped heatmap
+
+open 6ii9_JA_renumbered.pdb
+
+color /A:1 /B:346 /B:376 /C:1 /D:346 /D:376 /E:1 /F:346 /F:376 #f0c86f
+color /A:2 /C:2 /E:2 #f7e3b4
+color /A:3 /B:371 /C:3 /D:371 /E:3 /F:371 #ebb337
+color /A:4 /A:33 /A:285 /C:4 /C:33 /C:285 /E:4 /E:33 /E:285 #e8aa1e
+color /A:5 /B:397 /B:416 /B:422 /C:5 /D:397 /D:416 /D:422 /E:5 /F:397 /F:416 /F:422 #edbd50
+color /A:6 /C:6 /E:6 #ebb438
+color /A:7 /A:126 /A:286 /B:472 /C:7 /C:126 /C:286 /D:472 /E:7 /E:126 /E:286 /F:472 #e9ad27
+color /A:8 /C:8 /E:8 #f1cd7a
+color /A:9 /A:143 /C:9 /C:143 /E:9 /E:143 #f1cb75
+color /A:10 /C:10 /E:10 #f8e5bb
+color /A:11 /A:37 /B:463 /C:11 /C:37 /D:463 /E:11 /E:37 /F:463 #fcf5e6
+color /A:12 /A:21 /A:150 /C:12 /C:21 /C:150 /E:12 /E:21 /E:150 #f8e5bc
+color /A:13 /C:13 /E:13 #eec15b
+color /A:14 /B:440 /C:14 /D:440 /E:14 /F:440 #f9e8c4
+color /A:15 /A:25 /A:210 /A:247 /C:15 /C:25 /C:210 /C:247 /E:15 /E:25 /E:210 /E:247 #fbf0d8
+color /A:16 /A:181 /C:16 /C:181 /E:16 /E:181 #e9ac24
+color /A:17 /A:196 /C:17 /C:196 /E:17 /E:196 #f7e4b7
+color /A:18 /B:353 /C:18 /D:353 /E:18 /F:353 #edba47
+color /A:19 /A:31 /B:323 /B:446 /C:19 /C:31 /D:323 /D:446 /E:19 /E:31 /F:323 /F:446 #ebb53b
+color /A:20 /B:332 /C:20 /D:332 /E:20 /F:332 #f1cb76
+color /A:22 /C:22 /E:22 #daeaf4
+color /A:23 /A:123 /A:201 /A:292 /C:23 /C:123 /C:201 /C:292 /E:23 /E:123 /E:201 /E:292 #f9eac7
+color /A:24 /C:24 /E:24 #f2cd7c
+color /A:26 /C:26 /E:26 #eab12f
+color /A:27 /C:27 /E:27 #efc362
+color /A:28 /A:132 /C:28 /C:132 /E:28 /E:132 #fbf2dd
+color /A:29 /A:169 /A:273 /C:29 /C:169 /C:273 /E:29 /E:169 /E:273 #edbc4d
+color /A:30 /C:30 /E:30 #f8e7c1
+color /A:32 /C:32 /E:32 #edbd4f
+color /A:34 /B:338 /B:395 /C:34 /D:338 /D:395 /E:34 /F:338 /F:395 #faecce
+color /A:35 /C:35 /E:35 #fbefd6
+color /A:36 /A:65 /A:166 /B:349 /C:36 /C:65 /C:166 /D:349 /E:36 /E:65 /E:166 /F:349 #fefcf8
+color /A:38 /A:265 /A:274 /B:369 /C:38 /C:265 /C:274 /D:369 /E:38 /E:265 /E:274 /F:369 #faeed3
+color /A:39 /A:69 /B:384 /C:39 /C:69 /D:384 /E:39 /E:69 /F:384 #fcf6e8
+color /A:40 /A:200 /A:207 /A:262 /A:276 /A:280 /C:40 /C:200 /C:207 /C:262 /C:276 /C:280 /E:40 /E:200 /E:207 /E:262 /E:276 /E:280 #fdfaf2
+color /A:41 /B:432 /C:41 /D:432 /E:41 /F:432 #efc15c
+color /A:42 /A:272 /B:348 /B:351 /B:464 /C:42 /C:272 /D:348 /D:351 /D:464 /E:42 /E:272 /F:348 /F:351 /F:464 #e7a613
+color /A:43 /A:177 /B:398 /B:409 /B:417 /B:465 /B:473 /C:43 /C:177 /D:398 /D:409 /D:417 /D:465 /D:473 /E:43 /E:177 /F:398 /F:409 /F:417 /F:465 /F:473 #f6dfab
+color /A:44 /C:44 /E:44 #fdf9f1
+color /A:45 /C:45 /E:45 #fdf8ec
+color /A:46 /C:46 /E:46 #f5d99c
+color /A:47 /C:47 /E:47 #e1eef6
+color /A:48 /A:190 /C:48 /C:190 /E:48 /E:190 #fcf4e3
+color /A:49 /A:235 /A:267 /B:391 /B:392 /B:484 /C:49 /C:235 /C:267 /D:391 /D:392 /D:484 /E:49 /E:235 /E:267 /F:391 /F:392 /F:484 #fcf3e1
+color /A:50 /C:50 /E:50 #f6e0ad
+color /A:51 /A:174 /A:234 /C:51 /C:174 /C:234 /E:51 /E:174 /E:234 #efc565
+color /A:52 /B:402 /C:52 /D:402 /E:52 /F:402 #fbf2dc
+color /A:53 /A:237 /C:53 /C:237 /E:53 /E:237 #fcf4e4
+color /A:54 /B:327 /C:54 /D:327 /E:54 /F:327 #e8a614
+color /A:55 /A:307 /B:324 /B:438 /C:55 /C:307 /D:324 /D:438 /E:55 /E:307 /F:324 /F:438 #ebb233
+color /A:56 /C:56 /E:56 #f4d796
+color /A:57 /B:335 /C:57 /D:335 /E:57 /F:335 #f7e2b4
+color /A:58 /B:325 /B:330 /B:401 /C:58 /D:325 /D:330 /D:401 /E:58 /F:325 /F:330 /F:401 #e9ae28
+color /A:59 /A:206 /A:268 /B:502 /C:59 /C:206 /C:268 /D:502 /E:59 /E:206 /E:268 /F:502 #f3d185
+color /A:60 /A:108 /C:60 /C:108 /E:60 /E:108 #f3d38c
+color /A:61 /A:192 /C:61 /C:192 /E:61 /E:192 #f8e5ba
+color /A:62 /A:284 /C:62 /C:284 /E:62 /E:284 #ebb53a
+color /A:63 /C:63 /E:63 #f3d184
+color /A:64 /C:64 /E:64 #f7e0ad
+color /A:66 /C:66 /E:66 #e8a818
+color /A:67 /A:244 /C:67 /C:244 /E:67 /E:244 #f5d899
+color /A:68 /A:91 /A:250 /B:494 /B:500 /C:68 /C:91 /C:250 /D:494 /D:500 /E:68 /E:91 /E:250 /F:494 /F:500 #fbf1dc
+color /A:70 /C:70 /E:70 #fdf7eb
+color /A:71 /A:96 /A:115 /C:71 /C:96 /C:115 /E:71 /E:96 /E:115 #faeccd
+color /A:72 /B:404 /C:72 /D:404 /E:72 /F:404 #f4d58f
+color /A:73 /C:73 /E:73 #fdfaf4
+color /A:74 /C:74 /E:74 #f2cf81
+color /A:75 /A:141 /A:194 /A:253 /C:75 /C:141 /C:194 /C:253 /E:75 /E:141 /E:194 /E:253 #fbf1da
+color /A:76 /A:98 /C:76 /C:98 /E:76 /E:98 #f0c669
+color /A:77 /A:80 /C:77 /C:80 /E:77 /E:80 #f1c971
+color /A:78 /B:364 /C:78 /D:364 /E:78 /F:364 #efc25d
+color /A:79 /A:119 /C:79 /C:119 /E:79 /E:119 #f6dda5
+color /A:81 /A:109 /C:81 /C:109 /E:81 /E:109 #fbf3e0
+color /A:82 /A:281 /C:82 /C:281 /E:82 /E:281 #fcf6e7
+color /A:83 /C:83 /E:83 #f4d591
+color /A:84 /C:84 /E:84 #d6e8f2
+color /A:85 /A:133 /C:85 /C:133 /E:85 /E:133 #fcf4e2
+color /A:86 /A:215 /C:86 /C:215 /E:86 /E:215 #fdfaf3
+color /A:87 /A:313 /B:333 /B:451 /C:87 /C:313 /D:333 /D:451 /E:87 /E:313 /F:333 /F:451 #e7a40f
+color /A:88 /C:88 /E:88 #e9ab22
+color /A:89 /C:89 /E:89 #f0c96f
+color /A:90 /A:171 /C:90 /C:171 /E:90 /E:171 #e9ad26
+color /A:92 /A:135 /A:209 /A:233 /A:257 /B:358 /C:92 /C:135 /C:209 /C:233 /C:257 /D:358 /E:92 /E:135 /E:209 /E:233 /E:257 /F:358 #f7e0ae
+color /A:93 /B:399 /C:93 /D:399 /E:93 /F:399 #fdfbf4
+color /A:94 /C:94 /E:94 #fcf7e9
+color /A:95 /A:101 /A:254 /A:269 /B:359 /C:95 /C:101 /C:254 /C:269 /D:359 /E:95 /E:101 /E:254 /E:269 /F:359 #fefbf6
+color /A:97 /A:134 /A:163 /A:226 /C:97 /C:134 /C:163 /C:226 /E:97 /E:134 /E:163 /E:226 #fbf1db
+color /A:99 /A:128 /A:298 /B:444 /C:99 /C:128 /C:298 /D:444 /E:99 /E:128 /E:298 /F:444 #f3d38a
+color /A:100 /A:149 /A:316 /B:380 /B:382 /C:100 /C:149 /C:316 /D:380 /D:382 /E:100 /E:149 /E:316 /F:380 /F:382 #f8e7bf
+color /A:102 /C:102 /E:102 #f1c970
+color /A:103 /C:103 /E:103 #eaae29
+color /A:104 /A:222 /A:289 /C:104 /C:222 /C:289 /E:104 /E:222 /E:289 #fcf5e4
+color /A:105 /C:105 /E:105 #f8e6bc
+color /A:106 /C:106 /E:106 #edbb4a
+color /A:107 /B:450 /C:107 /D:450 /E:107 /F:450 #ecb946
+color /A:110 /C:110 /E:110 #ebb437
+color /A:111 /A:204 /B:492 /C:111 /C:204 /D:492 /E:111 /E:204 /F:492 #f8e4b8
+color /A:112 /C:112 /E:112 #f7fbfc
+color /A:113 /B:503 /C:113 /D:503 /E:113 /F:503 #f5da9d
+color /A:114 /A:202 /C:114 /C:202 /E:114 /E:202 #fdf7ea
+color /A:116 /A:154 /C:116 /C:154 /E:116 /E:154 #faedcf
+color /A:117 /B:426 /C:117 /D:426 /E:117 /F:426 #f0c86d
+color /A:118 /C:118 /E:118 #f3d48d
+color /A:120 /C:120 /E:120 #f6dea8
+color /A:121 /C:121 /E:121 #f6dda6
+color /A:122 /B:396 /B:455 /C:122 /D:396 /D:455 /E:122 /F:396 /F:455 #fbf0d9
+color /A:124 /A:277 /C:124 /C:277 /E:124 /E:277 #e7a40d
+color /A:125 /C:125 /E:125 #faefd6
+color /A:127 /B:441 /C:127 /D:441 /E:127 /F:441 #f7e2b2
+color /A:129 /B:483 /C:129 /D:483 /E:129 /F:483 #e8a716
+color /A:130 /A:165 /A:282 /B:383 /B:467 /C:130 /C:165 /C:282 /D:383 /D:467 /E:130 /E:165 /E:282 /F:383 /F:467 #fefcf7
+color /A:131 /A:314 /B:374 /B:489 /C:131 /C:314 /D:374 /D:489 /E:131 /E:314 /F:374 /F:489 #f9e8c2
+color /A:136 /B:429 /B:479 /C:136 /D:429 /D:479 /E:136 /F:429 /F:479 #ebb439
+color /A:137 /A:211 /B:430 /C:137 /C:211 /D:430 /E:137 /E:211 /F:430 #eec058
+color /A:138 /B:470 /C:138 /D:470 /E:138 /F:470 #fdf8ee
+color /A:139 /A:248 /C:139 /C:248 /E:139 /E:248 #f4d693
+color /A:140 /A:170 /C:140 /C:170 /E:140 /E:170 #f8e4b9
+color /A:142 /B:331 /B:457 /C:142 /D:331 /D:457 /E:142 /F:331 /F:457 #e7a40e
+color /A:144 /A:225 /C:144 /C:225 /E:144 /E:225 #f1ca72
+color /A:145 /B:393 /C:145 /D:393 /E:145 /F:393 #f3d187
+color /A:146 /A:153 /B:354 /B:478 /C:146 /C:153 /D:354 /D:478 /E:146 /E:153 /F:354 /F:478 #f9eac9
+color /A:147 /C:147 /E:147 #f9e9c5
+color /A:148 /C:148 /E:148 #ecb947
+color /A:151 /B:350 /C:151 /D:350 /E:151 /F:350 #f7e2b3
+color /A:152 /A:193 /C:152 /C:193 /E:152 /E:193 #f1cb77
+color /A:155 /B:362 /B:370 /B:377 /C:155 /D:362 /D:370 /D:377 /E:155 /F:362 /F:370 /F:377 #fbf0d7
+color /A:156 /A:183 /A:214 /A:246 /B:379 /B:475 /C:156 /C:183 /C:214 /C:246 /D:379 /D:475 /E:156 /E:183 /E:214 /E:246 /F:379 /F:475 #f8e6be
+color /A:157 /C:157 /E:157 #9fcae2
+color /A:158 /C:158 /E:158 #fdfaf1
+color /A:159 /C:159 /E:159 #eebf56
+color /A:160 /C:160 /E:160 #87bcda
+color /A:161 /A:220 /A:240 /B:486 /C:161 /C:220 /C:240 /D:486 /E:161 /E:220 /E:240 /F:486 #e9ab21
+color /A:162 /A:271 /C:162 /C:271 /E:162 /E:271 #fefefe
+color /A:164 /A:264 /A:295 /C:164 /C:264 /C:295 /E:164 /E:264 /E:295 #fefdfa
+color /A:167 /A:176 /C:167 /C:176 /E:167 /E:176 #f3d289
+color /A:168 /B:360 /C:168 /D:360 /E:168 /F:360 #f4d48f
+color /A:172 /C:172 /E:172 #e9aa1f
+color /A:173 /B:504 /C:173 /D:504 /E:173 /F:504 #efc361
+color /A:175 /B:387 /C:175 /D:387 /E:175 /F:387 #f6dca3
+color /A:178 /C:178 /E:178 #f5dba0
+color /A:179 /B:366 /C:179 /D:366 /E:179 /F:366 #fbf2df
+color /A:180 /B:488 /C:180 /D:488 /E:180 /F:488 #f9e9c4
+color /A:182 /C:182 /E:182 #f4d692
+color /A:184 /B:363 /B:466 /B:497 /C:184 /D:363 /D:466 /D:497 /E:184 /F:363 /F:466 /F:497 #fdf8ed
+color /A:185 /C:185 /E:185 #ebb335
+color /A:186 /B:344 /B:403 /C:186 /D:344 /D:403 /E:186 /F:344 /F:403 #eab130
+color /A:187 /B:361 /C:187 /D:361 /E:187 /F:361 #e8a91b
+color /A:188 /C:188 /E:188 #f7e3b7
+color /A:189 /C:189 /E:189 #f3d38b
+color /A:191 /A:218 /A:256 /A:263 /C:191 /C:218 /C:256 /C:263 /E:191 /E:218 /E:256 /E:263 #fcf5e5
+color /A:195 /C:195 /E:195 #edbd51
+color /A:197 /A:293 /B:339 /B:381 /B:481 /B:499 /C:197 /C:293 /D:339 /D:381 /D:481 /D:499 /E:197 /E:293 /F:339 /F:381 /F:481 /F:499 #f9ebcb
+color /A:198 /C:198 /E:198 #f1f7fa
+color /A:199 /A:261 /C:199 /C:261 /E:199 /E:261 #fdf9ef
+color /A:203 /A:266 /C:203 /C:266 /E:203 /E:266 #fefdf9
+color /A:205 /B:495 /C:205 /D:495 /E:205 /F:495 #fcf7ea
+color /A:208 /C:208 /E:208 #fdf9f0
+color /A:212 /A:241 /C:212 /C:241 /E:212 /E:241 #f4d694
+color /A:213 /C:213 /E:213 #faeed2
+color /A:216 /A:231 /C:216 /C:231 /E:216 /E:231 #f7e1b0
+color /A:217 /A:238 /B:389 /C:217 /C:238 /D:389 /E:217 /E:238 /F:389 #f4d795
+color /A:219 /B:428 /B:493 /C:219 /D:428 /D:493 /E:219 /F:428 /F:493 #edba48
+color /A:221 /C:221 /E:221 #f2d084
+color /A:223 /B:485 /C:223 /D:485 /E:223 /F:485 #f5dca2
+color /A:224 /B:373 /B:443 /C:224 /D:373 /D:443 /E:224 /F:373 /F:443 #f5dba1
+color /A:227 /C:227 /E:227 #f9fcfd
+color /A:228 /C:228 /E:228 #edba4a
+color /A:229 /C:229 /E:229 #e5f0f7
+color /A:230 /C:230 /E:230 #fefdfc
+color /A:232 /C:232 /E:232 #f7e1b1
+color /A:236 /C:236 /E:236 #eebe52
+color /A:239 /C:239 /E:239 #f8e7c0
+color /A:242 /C:242 /E:242 #f0c566
+color /A:243 /C:243 /E:243 #efc360
+color /A:245 /A:260 /C:245 /C:260 /E:245 /E:260 #f1cc79
+color /A:249 /A:283 /C:249 /C:283 /E:249 /E:283 #f8e6bd
+color /A:251 /C:251 /E:251 #eef5f9
+color /A:252 /C:252 /E:252 #fefdfb
+color /A:255 /B:420 /B:482 /C:255 /D:420 /D:482 /E:255 /F:420 /F:482 #ecb741
+color /A:258 /C:258 /E:258 #f1ca74
+color /A:259 /C:259 /E:259 #f0c970
+color /A:270 /B:326 /B:405 /C:270 /D:326 /D:405 /E:270 /F:326 /F:405 #eaaf2c
+color /A:275 /A:315 /C:275 /C:315 /E:275 /E:315 #fbf3df
+color /A:278 /A:279 /B:414 /C:278 /C:279 /D:414 /E:278 /E:279 /F:414 #ebb336
+color /A:287 /C:287 /E:287 #f3d186
+color /A:288 /B:419 /C:288 /D:419 /E:288 /F:419 #eebd51
+color /A:290 /C:290 /E:290 #e3eff6
+color /A:291 /A:308 /B:340 /B:342 /B:456 /C:291 /C:308 /D:340 /D:342 /D:456 /E:291 /E:308 /F:340 /F:342 /F:456 #e8a715
+color /A:294 /B:328 /B:334 /B:462 /C:294 /D:328 /D:334 /D:462 /E:294 /F:328 /F:334 /F:462 #e7a30b
+color /A:296 /A:311 /C:296 /C:311 /E:296 /E:311 #e7a30c
+color /A:297 /B:337 /B:410 /C:297 /D:337 /D:410 /E:297 /F:337 /F:410 #f0c76c
+color /A:299 /C:299 /E:299 #ebb43a
+color /A:300 /C:300 /E:300 #eab02e
+color /A:301 /C:301 /E:301 #fcf6e9
+color /A:302 /C:302 /E:302 #faeed4
+color /A:303 /C:303 /E:303 #fefbf5
+color /A:304 /C:304 /E:304 #f0c86e
+color /A:305 /B:435 /C:305 /D:435 /E:305 /F:435 #ebb234
+color /A:306 /C:306 /E:306 #f6dca4
+color /A:309 /C:309 /E:309 #f6dda4
+color /A:310 /C:310 /E:310 #e8a615
+color /A:312 /B:375 /C:312 /D:375 /E:312 /F:375 #eebe53
+color /A:317 /C:317 /E:317 #eef6fa
+color /B:321 /B:458 /D:321 /D:458 /F:321 /F:458 #eaae2a
+color /B:322 /D:322 /F:322 #edbc4f
+color /B:329 /B:460 /D:329 /D:460 /F:329 /F:460 #ecb740
+color /B:336 /B:424 /D:336 /D:424 /F:336 /F:424 #e8a717
+color /B:341 /D:341 /F:341 #e7a612
+color /B:343 /B:442 /D:343 /D:442 /F:343 /F:442 #edbc4e
+color /B:345 /D:345 /F:345 #f3d48e
+color /B:347 /D:347 /F:347 #faefd5
+color /B:352 /D:352 /F:352 #f9eac8
+color /B:355 /D:355 /F:355 #edbb4c
+color /B:356 /D:356 /F:356 #edba49
+color /B:357 /D:357 /F:357 #ecb63e
+color /B:365 /D:365 /F:365 #f5da9f
+color /B:367 /B:378 /D:367 /D:378 /F:367 /F:378 #f9e9c6
+color /B:368 /D:368 /F:368 #ecb842
+color /B:372 /D:372 /F:372 #f6dfac
+color /B:385 /D:385 /F:385 #f5d99b
+color /B:386 /D:386 /F:386 #f2d082
+color /B:388 /B:454 /D:388 /D:454 /F:388 /F:454 #f6dea9
+color /B:390 /B:425 /B:496 /D:390 /D:425 /D:496 /F:390 /F:425 /F:496 #efc464
+color /B:394 /D:394 /F:394 #f3d28a
+color /B:400 /B:427 /D:400 /D:427 /F:400 /F:427 #eec059
+color /B:406 /B:445 /D:406 /D:445 /F:406 /F:445 #f7e1af
+color /B:407 /B:423 /D:407 /D:423 /F:407 /F:423 #f2ce7e
+color /B:408 /D:408 /F:408 #edbb4b
+color /B:411 /B:415 /D:411 /D:415 /F:411 /F:415 #ecb843
+color /B:412 /D:412 /F:412 #e9ac22
+color /B:413 /B:477 /D:413 /D:477 /F:413 /F:477 #ecb63f
+color /B:418 /D:418 /F:418 #efc462
+color /B:421 /D:421 /F:421 #f7e3b6
+color /B:431 /B:439 /D:431 /D:439 /F:431 /F:439 #eec057
+color /B:433 /D:433 /F:433 #efc463
+color /B:434 /D:434 /F:434 #f5d99a
+color /B:436 /D:436 /F:436 #f1cc7a
+color /B:437 /D:437 /F:437 #efc25e
+color /B:447 /D:447 /F:447 #e9aa1e
+color /B:448 /D:448 /F:448 #f3d288
+color /B:449 /D:449 /F:449 #e8a81a
+color /B:452 /D:452 /F:452 #eab132
+color /B:453 /D:453 /F:453 #ecb945
+color /B:459 /D:459 /F:459 #f6dea7
+color /B:461 /B:469 /D:461 /D:469 /F:461 /F:469 #eab131
+color /B:468 /D:468 /F:468 #e7a511
+color /B:471 /B:474 /D:471 /D:474 /F:471 /F:474 #f9e8c3
+color /B:476 /D:476 /F:476 #faebcc
+color /B:480 /D:480 /F:480 #fcfdfe
+color /B:487 /D:487 /F:487 #f0c668
+color /B:490 /D:490 /F:490 #e8aa1d
+color /B:491 /D:491 /F:491 #f1ca73
+color /B:498 /D:498 /F:498 #efc25f
+color /B:501 /D:501 /F:501 #f3d287
+color /B:505 /D:505 /F:505 #f5dba2
