@@ -12,16 +12,7 @@ phenotypes: &phenotypes
   alphabet: [A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y]  # amino acids to include
   init_floor_escape_at_zero: true  # initially floor site escape to be >= 0?
   init_site_escape_stat: sum  # initially show site escape as this statistic
-  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
-    species sera:
-      stat: escape  # statistic from CSV to plot
-      positive_color: "#56B4E9"  # light blue, positive heatmap color
-      negative_color: "#E69F00"  # orange, negative heatmap color
-      max_at_least: 2  # make heatmap max at least
-      min_at_least: -2  # make heatmap min at least this
-      # antibody_list:  # antibodies to include and their CSVs
-      #   mouse: results/processed_results/avg_of_mouse_sera.csv
-      #   ferret: results/processed_results/avg_of_ferret_sera.csv
+  antibody_escape: {}  # show effects on antibody escape, empty dict if no antibodies being shown
   other_phenotypes:
     entry in 293 2,3 cells:
       csv: results/func_effects/averages/293_2-3_entry_func_effects.csv  # CSV w data

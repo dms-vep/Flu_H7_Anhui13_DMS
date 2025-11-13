@@ -69,4 +69,8 @@ results/receptor_affinity/averages/*
 results/dms_viz/*
 !results/dms_viz/*.json
 
+!results/summaries
+results/summaries/*
+!results/summaries/*.html
+
 scratch_notebooks/*.html
