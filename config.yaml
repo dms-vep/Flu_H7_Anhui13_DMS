@@ -54,6 +54,10 @@ mutation_design_classification:
 # those columns if no neutralization standards.
 neut_standard_barcodes: data/neutralization_standard_barcodes.csv
 
+# Mutation annotations. Should have columns "site", "mutant", and then any
+# number of additional columns with annotations for each mutation.
+mutation_annotations: data/mutation_annotations.csv
+
 # ----------------------------------------------------------------------------
 # Parameters related to building barcode-variant lookup table
 # ----------------------------------------------------------------------------
