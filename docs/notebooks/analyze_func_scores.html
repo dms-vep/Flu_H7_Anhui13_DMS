@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7521,7 +7522,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a2b4fb9f-ad03-4348-8c99-1dfda78b0dde">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a2b4fb9f-ad03-4348-8c99-1dfda78b0dde">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7529,30 +7530,17 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">altair</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">alt</span>
 
-<span class="kn">import</span> <span class="nn">dms_variants.codonvarianttable</span>
-<span class="kn">import</span> <span class="nn">dms_variants.utils</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">dms_variants.codonvarianttable</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">dms_variants.utils</span>
 
-<span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span>
 
-<span class="kn">import</span> <span class="nn">scipy.stats</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">scipy.stats</span>
 
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/loc/scratch/40255237/ipykernel_6900/3244485982.py:8: UserWarning: A NumPy version &gt;=1.23.5 and &lt;2.3.0 is required for this version of SciPy (detected version 2.3.2)
-</pre>
 </div>
 </div>
 </div>
@@ -7597,7 +7585,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=4799ca3f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=2d61c94e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7955,23 +7943,23 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>
-  #altair-viz-aee858051cf049db997977482bb5aece.vega-embed {
+  #altair-viz-4694c5ead0c140d595d4b811e1b4db69.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-aee858051cf049db997977482bb5aece.vega-embed details,
-  #altair-viz-aee858051cf049db997977482bb5aece.vega-embed details summary {
+  #altair-viz-4694c5ead0c140d595d4b811e1b4db69.vega-embed details,
+  #altair-viz-4694c5ead0c140d595d4b811e1b4db69.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-aee858051cf049db997977482bb5aece"></div>
+<div id="altair-viz-4694c5ead0c140d595d4b811e1b4db69"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-aee858051cf049db997977482bb5aece") {
-      outputDiv = document.getElementById("altair-viz-aee858051cf049db997977482bb5aece");
+    if (outputDiv.id !== "altair-viz-4694c5ead0c140d595d4b811e1b4db69") {
+      outputDiv = document.getElementById("altair-viz-4694c5ead0c140d595d4b811e1b4db69");
     }
 
     const paths = {
@@ -8051,7 +8039,7 @@ a.anchor-link {
 <span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">ridgeplot</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">ridgeplot</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
     <span class="n">variant_classes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
         <span class="nb">reversed</span><span class="p">(</span>
             <span class="p">[</span>
@@ -8191,23 +8179,23 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>
-  #altair-viz-a0b3d63c414b410ab0b8cbf62cc31468.vega-embed {
+  #altair-viz-60c20f6fa7344590a077495855021422.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-a0b3d63c414b410ab0b8cbf62cc31468.vega-embed details,
-  #altair-viz-a0b3d63c414b410ab0b8cbf62cc31468.vega-embed details summary {
+  #altair-viz-60c20f6fa7344590a077495855021422.vega-embed details,
+  #altair-viz-60c20f6fa7344590a077495855021422.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-a0b3d63c414b410ab0b8cbf62cc31468"></div>
+<div id="altair-viz-60c20f6fa7344590a077495855021422"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-a0b3d63c414b410ab0b8cbf62cc31468") {
-      outputDiv = document.getElementById("altair-viz-a0b3d63c414b410ab0b8cbf62cc31468");
+    if (outputDiv.id !== "altair-viz-60c20f6fa7344590a077495855021422") {
+      outputDiv = document.getElementById("altair-viz-60c20f6fa7344590a077495855021422");
     }
 
     const paths = {
@@ -8352,23 +8340,23 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <style>
-  #altair-viz-b92b79d9eb484f3787f09c4e8deed59d.vega-embed {
+  #altair-viz-1f9c7b4984824222ab6ff64bc7deb975.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-b92b79d9eb484f3787f09c4e8deed59d.vega-embed details,
-  #altair-viz-b92b79d9eb484f3787f09c4e8deed59d.vega-embed details summary {
+  #altair-viz-1f9c7b4984824222ab6ff64bc7deb975.vega-embed details,
+  #altair-viz-1f9c7b4984824222ab6ff64bc7deb975.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-b92b79d9eb484f3787f09c4e8deed59d"></div>
+<div id="altair-viz-1f9c7b4984824222ab6ff64bc7deb975"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b92b79d9eb484f3787f09c4e8deed59d") {
-      outputDiv = document.getElementById("altair-viz-b92b79d9eb484f3787f09c4e8deed59d");
+    if (outputDiv.id !== "altair-viz-1f9c7b4984824222ab6ff64bc7deb975") {
+      outputDiv = document.getElementById("altair-viz-1f9c7b4984824222ab6ff64bc7deb975");
     }
 
     const paths = {
@@ -8424,23 +8412,23 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <style>
-  #altair-viz-e443896c33f448e980a8c6d2a5a9b469.vega-embed {
+  #altair-viz-b641320942c94272ad01a18432c816c1.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-e443896c33f448e980a8c6d2a5a9b469.vega-embed details,
-  #altair-viz-e443896c33f448e980a8c6d2a5a9b469.vega-embed details summary {
+  #altair-viz-b641320942c94272ad01a18432c816c1.vega-embed details,
+  #altair-viz-b641320942c94272ad01a18432c816c1.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-e443896c33f448e980a8c6d2a5a9b469"></div>
+<div id="altair-viz-b641320942c94272ad01a18432c816c1"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e443896c33f448e980a8c6d2a5a9b469") {
-      outputDiv = document.getElementById("altair-viz-e443896c33f448e980a8c6d2a5a9b469");
+    if (outputDiv.id !== "altair-viz-b641320942c94272ad01a18432c816c1") {
+      outputDiv = document.getElementById("altair-viz-b641320942c94272ad01a18432c816c1");
     }
 
     const paths = {
