@@ -42,7 +42,7 @@ To do a test run of the pipeline you can execute the following command
 To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `environment.yml` file of [dms-vep-pipeline-3](https://github.com/dms-vep/dms-vep-pipeline-3), activate it, and run [snakemake](https://snakemake.readthedocs.io/), such as:
 
     conda activate dms-vep-pipeline-3
-    snakemake -j 32 --use-conda -s dms-vep-pipeline-3/Snakefile
+    snakemake -j 32 --software-deployment-method conda -s dms-vep-pipeline-3/Snakefile
 
 To run on the Hutch cluster via [slurm](https://slurm.schedmd.com/), you can run the file [run_Hutch_cluster.bash](run_Hutch_cluster.bash):
 
