@@ -1,14 +1,13 @@
 H7_Anhui13_293_mix:
-  data_csv: results/func_effects/averages/293_mix_entry_func_effects.csv
-  title: "Effect of mutations to H7 Anhui13 on entry in 293 mix cells"
-  effect_col: "effect"
+  data_csv: results/summaries/entry_all_cells.csv
+  title: "Effect of mutations to H7 influenza HA on entry into a mix of cells expressing a2-3 and a2-6 sialic acid"
+  effect_col: "entry in mix of a23 and a26 cells"
   data_query_str: ""
   sites_per_row: 127
   site_label_freq: 20
   site_label_start: 5  # start labeling at this site
   color_scheme: redblue
-  fixed_min: -5.014
-  fixed_max: 1.426
+  fixed_min: -5
+  fixed_max: 2.5
   alphabet: "RKHDEQNSTYWFAILMVGPC"
-  chart_png: "results/wrapped_heatmaps/H7_Anhui13_293_mix.png"  # enable PNG export
-  # dark_gray_muts: null   # optional; add if you want the gray overlay feature
+  dark_gray_muts: null   # specify col and cutoff to show some mutations in dark gray.
