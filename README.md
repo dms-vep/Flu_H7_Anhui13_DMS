@@ -1,5 +1,5 @@
 # Pseudovirus deep mutational scanning of A/Anhui/1/013 (H7N9) Hemagglutinin
-Study by Jenny Ahn and Jesse Bloom.
+Study by Jenny Ahn in the [Bloom lab](https://jbloomlab.org/).
 
 ## Organization of this repo
 
@@ -29,14 +29,15 @@ Input data utilized by the pipeline are located in [./data/](data).
 The results of running the pipeline are placed in [./results/](results).
 Due to space, only some results are tracked. For those that are not, see the [.gitignore](.gitignore) document.
 
-The pipeline builds HTML documentation for the pipeline in [./docs/](docs). These docs are rendered for viewing at [https://dms-vep.org/Flu_H7_Anhui13_DMS/](https://dms-vep.org/Flu_H7_Anhui13_DMS/).
+The pipeline builds HTML documentation for the pipeline in `./results/docs` and `./results/published_docs`.
+To visualize these docs via GitHub Pages, run:
+
+    dms-vep-pipeline-3/publish_docs_gh-pages.sh
+
+This pushes the docs to the *gh-pages* branch, we can be viewed on GitHub Pages at [https://dms-vep.org/Flu_H7_Anhui13_DMS/](https://dms-vep.org/Flu_H7_Anhui13_DMS/).
 
 ### Non-pipeline analyses
 All other non-pipeline analyses are contained in [./scratch_notebooks/](scratch_notebooks). The notebooks in this directory are not part of the main pipeline but have been used to generate files used as input for the pipeline.
-
-## Running the pipeline (dry-run)
-To do a test run of the pipeline you can execute the following command
-    snakemake -n -s dms-vep-pipeline-3/Snakefile --rerun-incomplete
 
 ## Running the pipeline
 To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `environment.yml` file of [dms-vep-pipeline-3](https://github.com/dms-vep/dms-vep-pipeline-3), activate it, and run [snakemake](https://snakemake.readthedocs.io/), such as:
