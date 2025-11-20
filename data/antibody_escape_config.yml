@@ -36,14 +36,14 @@ assays:
       constant: 0.04
     scale_stat: 1
     stat_name: escape
-  stability:
-    title: Stability
-    selections: stability_selections
-    averages: avg_stability
-    prob_escape_scale:
-      type: linear
-    scale_stat: 1
-    stat_name: stability
+#  stability:
+#    title: Stability
+#    selections: stability_selections
+#    averages: avg_stability
+#    prob_escape_scale:
+#      type: linear
+#    scale_stat: 1
+#    stat_name: stability
 
 # --------------------------------------------------------------------------------------
 # Configuration for the selection experiments for each assay.
@@ -235,56 +235,55 @@ antibody_selections:
 
 
 # define the stability selections
-stability_selections:      
-
-  LibA-250724-pH:
-     neut_standard_name: neut_standard
-     prob_escape_filters: *prob_escape_filters_default
-     polyclonal_params: *polyclonal_params_default
-     escape_plot_kwargs: *escape_plot_kwargs_default
-     plot_hide_stats: *plot_hide_stats_default
-     no_antibody_sample: A-250724-H7-mix-pH-media
-     antibody_samples:
-      A-250724-H7-mix-pH-6.1:
-        concentration: 1.3
-        use_in_fit: true
-      A-250724-H7-mix-pH-5.9:
-        concentration: 1.5
-        use_in_fit: true
-      A-250724-H7-mix-pH-5.7:
-        concentration: 1.7
-        use_in_fit: true
-      A-250724-H7-mix-pH-5.5:
-        concentration: 1.9
-        use_in_fit: true
-      A-250724-H7-mix-pH-5.3:
-        concentration: 2.1
-        use_in_fit: true
-
-  LibB-250724-pH:
-     neut_standard_name: neut_standard
-     prob_escape_filters: *prob_escape_filters_default
-     polyclonal_params: *polyclonal_params_default
-     escape_plot_kwargs: *escape_plot_kwargs_default
-     plot_hide_stats: *plot_hide_stats_default
-     no_antibody_sample: B-250724-H7-mix-pH-media
-     antibody_samples:
-      B-250724-H7-mix-pH-6.1:
-        concentration: 1.3
-        use_in_fit: true
-      B-250724-H7-mix-pH-5.9:
-        concentration: 1.5
-        use_in_fit: true
-      B-250724-H7-mix-pH-5.7:
-        concentration: 1.7
-        use_in_fit: true
-      B-250724-H7-mix-pH-5.5:
-        concentration: 1.9
-        use_in_fit: true
-      B-250724-H7-mix-pH-5.3:
-        concentration: 2.1
-        use_in_fit: true
-
+#stability_selections:      
+#
+#  LibA-250724-pH:
+#     neut_standard_name: neut_standard
+#     prob_escape_filters: *prob_escape_filters_default
+#     polyclonal_params: *polyclonal_params_default
+#     escape_plot_kwargs: *escape_plot_kwargs_default
+#     plot_hide_stats: *plot_hide_stats_default
+#     no_antibody_sample: A-250724-H7-mix-pH-media
+#     antibody_samples:
+#      A-250724-H7-mix-pH-6.1:
+#        concentration: 1.3
+#        use_in_fit: true
+#      A-250724-H7-mix-pH-5.9:
+#        concentration: 1.5
+#        use_in_fit: true
+#      A-250724-H7-mix-pH-5.7:
+#        concentration: 1.7
+#        use_in_fit: true
+#      A-250724-H7-mix-pH-5.5:
+#        concentration: 1.9
+#        use_in_fit: true
+#      A-250724-H7-mix-pH-5.3:
+#        concentration: 2.1
+#        use_in_fit: true
+#
+#  LibB-250724-pH:
+#     neut_standard_name: neut_standard
+#     prob_escape_filters: *prob_escape_filters_default
+#     polyclonal_params: *polyclonal_params_default
+#     escape_plot_kwargs: *escape_plot_kwargs_default
+#     plot_hide_stats: *plot_hide_stats_default
+#     no_antibody_sample: B-250724-H7-mix-pH-media
+#     antibody_samples:
+#      B-250724-H7-mix-pH-6.1:
+#        concentration: 1.3
+#        use_in_fit: true
+#      B-250724-H7-mix-pH-5.9:
+#        concentration: 1.5
+#        use_in_fit: true
+#      B-250724-H7-mix-pH-5.7:
+#        concentration: 1.7
+#        use_in_fit: true
+#      B-250724-H7-mix-pH-5.5:
+#        concentration: 1.9
+#        use_in_fit: true
+#      B-250724-H7-mix-pH-5.3:
+#        concentration: 2.1
+#        use_in_fit: true
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging/plotting selections for an assay
@@ -363,23 +362,23 @@ avg_antibody_escape:
 
 
 # define the pH stability selections to average
-avg_stability:
-  stability:
-    icXX: 80
-    escape_plot_kwargs:
-      <<: *escape_plot_kwargs_default
-      init_site_statistic: mean
-      init_floor_at_zero: false
-      addtl_slider_stats:
-        times_seen: 2
-      slider_binding_range_kwargs:
-        times_seen:
-          min: 1
-          max: 10
-          step: 1
-      avg_type: median
-      per_model_tooltip: true
-    plot_hide_stats: *plot_hide_stats_default
-    selections:
-      - LibA-250724-pH
-      - LibB-250724-pH
+#avg_stability:
+#  stability:
+#    icXX: 80
+#    escape_plot_kwargs:
+#      <<: *escape_plot_kwargs_default
+#      init_site_statistic: mean
+#      init_floor_at_zero: false
+#      addtl_slider_stats:
+#        times_seen: 2
+#      slider_binding_range_kwargs:
+#        times_seen:
+#          min: 1
+#          max: 10
+#          step: 1
+#      avg_type: median
+#      per_model_tooltip: true
+#    plot_hide_stats: *plot_hide_stats_default
+#    selections:
+#      - LibA-250724-pH
+#      - LibB-250724-pH
