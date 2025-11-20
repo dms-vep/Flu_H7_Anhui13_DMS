@@ -15,50 +15,24 @@ else:
 rule wrapped_heatmap:
     """Create wrapped heatmap visualization."""
     input:
-        data_csv=lambda wc: wrapped_heatmap_config[wc.heatmap]["data_csv"],
-        nb="scratch_notebooks/wrapped_heatmap.py.ipynb",
+        data_csv=lambda wc: wrapped_heatmap_config[wc.wrapped_hm]["data_csv"],
     output:
-        chart_html="results/wrapped_heatmaps/{heatmap}.html",
-        nb="results/notebooks/wrapped_heatmap_{heatmap}.ipynb",
+        chart_html="results/wrapped_heatmaps/{wrapped_hm}.html",
     params:
-        params_dict=lambda wc: wrapped_heatmap_config[wc.heatmap],
+        params_dict=lambda wc: wrapped_heatmap_config[wc.wrapped_hm],
     conda:
         os.path.join(config["pipeline_path"], "environment.yml")
     log:
-        "results/logs/wrapped_heatmap_{heatmap}.txt",
-    run:
-        import yaml as run_yaml
-        # Create parameters for papermill
-        pm_params = {
-            "data_csv": str(input.data_csv),
-            "chart_html": str(output.chart_html),
-        }
-        # Add all parameters from config
-        pm_params.update(params.params_dict)
-
-        import tempfile
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
-            run_yaml.dump(pm_params, f)
-            yaml_file = f.name
-
-        shell(
-            f"papermill {{input.nb}} {{output.nb}} "
-            f"-f {yaml_file} "
-            f"&> {{log}} && rm {yaml_file}"
-        )
+        notebook="results/notebooks/wrapped_heatmap_{wrapped_hm}.ipynb",
+    notebook:
+        "notebooks/wrapped_heatmap.py.ipynb"
 
 
 # Add wrapped heatmaps to docs
 if wrapped_heatmap_config:
     docs["Wrapped heatmaps"] = {
-        heatmap.replace("_", " ").replace("/", " - "): rules.wrapped_heatmap.output.chart_html.format(
-            heatmap=heatmap
-        )
-        for heatmap in wrapped_heatmap_config
+        "Heatmap HTMLs": {
+            wrapped_hm: rules.wrapped_heatmap.output.chart_html.format(wrapped_hm=wrapped_hm)
+            for wrapped_hm in wrapped_heatmap_config
+        },
     }
-
-    # Add to other_target_files so they get built
-    other_target_files.extend([
-        rules.wrapped_heatmap.output.chart_html.format(heatmap=heatmap)
-        for heatmap in wrapped_heatmap_config
-    ])

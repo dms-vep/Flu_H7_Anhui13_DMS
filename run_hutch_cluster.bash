@@ -1,5 +1,9 @@
 #!/bin/bash
 #
-#SBATCH -c 32
+#SBATCH -c 16 
 
-snakemake -j 32 -s dms-vep-pipeline-3/Snakefile --rerun-incomplete
+snakemake \
+    -j 16 \
+    -s dms-vep-pipeline-3/Snakefile \
+    --rerun-incomplete \
+    --software-deployment-method conda

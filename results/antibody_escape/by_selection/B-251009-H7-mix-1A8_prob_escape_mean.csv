@@ -1,0 +1,25 @@
+sample,concentration,use_in_fit,n_substitutions,n_variants,censored,probability escape
+B-251009-H7-mix-1A8-IC99,0.00043,True,0,8896,"censored to [0, 1]",0.09025
+B-251009-H7-mix-1A8-IC99,0.00043,True,1,15515,"censored to [0, 1]",0.1308
+B-251009-H7-mix-1A8-IC99,0.00043,True,2,2418,"censored to [0, 1]",0.1793
+B-251009-H7-mix-1A8-IC99,0.00043,True,>2,226,"censored to [0, 1]",0.1887
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,0,8909,"censored to [0, 1]",0.01679
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,1,15733,"censored to [0, 1]",0.06213
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,2,2501,"censored to [0, 1]",0.1264
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,>2,248,"censored to [0, 1]",0.2157
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,0,8904,"censored to [0, 1]",0.01849
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,1,15658,"censored to [0, 1]",0.06522
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,2,2494,"censored to [0, 1]",0.1265
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,>2,242,"censored to [0, 1]",0.2423
+B-251009-H7-mix-1A8-IC99,0.00043,True,0,8896,not censored,0.0917
+B-251009-H7-mix-1A8-IC99,0.00043,True,1,15515,not censored,0.1384
+B-251009-H7-mix-1A8-IC99,0.00043,True,2,2418,not censored,0.201
+B-251009-H7-mix-1A8-IC99,0.00043,True,>2,226,not censored,0.1942
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,0,8909,not censored,0.02186
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,1,15733,not censored,0.1092
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,2,2501,not censored,0.2507
+B-251009-H7-mix-1A8-IC99x12,0.00511,True,>2,248,not censored,0.5493
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,0,8904,not censored,0.02147
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,1,15658,not censored,0.1002
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,2,2494,not censored,0.2382
+B-251009-H7-mix-1A8-IC99x3,0.00128,True,>2,242,not censored,0.4842
