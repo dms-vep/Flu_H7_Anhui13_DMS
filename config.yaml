@@ -21,9 +21,9 @@ github_repo_url: https://github.com/dms-vep/Flu_H7_Anhui13_DMS
 # and should not be needed for other pipelines.
 github_blob_url: https://github.com/dms-vep/Flu_H7_Anhui13_DMS/blob/main
 # Some descriptions and metadata about the analysis.
-description: Deep mutational scanning of A/Anhui/1/2013 H7 
-year: 2024
-authors: Jenny Ahn and Jesse Bloom
+description: Pseudovirus deep mutational scanning of influenza HA from the H7 strain A/Anhui/1/2013
+year: 2025
+authors: Jenny Ahn and [Jesse Bloom](https://jbloomlab.org/)
 
 # ----------------------------------------------------------------------------
 # Site numbering, mutation classification, and neut standards
