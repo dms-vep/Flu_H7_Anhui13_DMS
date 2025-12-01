@@ -1,4 +1,4 @@
-# Pseudovirus deep mutational scanning of A/Anhui/1/013 (H7N9) Hemagglutinin
+# Pseudovirus deep mutational scanning of the hemagglutinin from the influenza strain A/Anhui/1/013 (H7N9)
 Study by Jenny Ahn in the [Bloom lab](https://jbloomlab.org/).
 
 ## Organization of this repo
