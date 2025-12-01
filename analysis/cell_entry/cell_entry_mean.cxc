@@ -1,0 +1,45 @@
+# ChimeraX commands to show structure colored by 293 mix cell entry effects
+
+#open pdb file
+open 6ii9_JA_renumbered.pdb
+
+# Set background to white for better visibility
+set bgColor white
+
+# lighting
+lighting flat
+
+# hide the atoms
+hide atoms
+
+# Show cartoon representation for all chains
+cartoon
+
+#run dssp to override the PDB HELIX recrods and compute the structure from the 3D coordinates instead of relying on the HELIX records
+dssp
+
+# show surface
+surface 
+
+
+
+# Set helix style to wrap (ribbons) for ALL chains
+# width controls ribbon width, thick controls ribbon thickness
+# arrowScale controls strand arrow size
+cartoon style modeHelix wrap modeStrand default width 2.5 thick 0.4 arrowScale 1.0
+
+# Force HA2 chains to display with wrap style
+# These chains have long helical regions in the stem
+cartoon style /B,D,F modeHelix wrap width 2.5 thick 0.4
+
+# add mutation effects to structure 
+open chimera_293_mix_entry.defattr
+
+#color structure by mutations
+color byattribute cell_entry_effect palette -5,#800000:0,white:2,#29538a
+
+# Fit model in view
+view
+
+# save hi-res structure
+save 293mix_surface.png supersample 3 transparentBackground true height 3000 width 3000
