@@ -27,7 +27,6 @@ rule wrapped_heatmap:
     notebook:
         "notebooks/wrapped_heatmap.py.ipynb"
 
-
 # Add wrapped heatmaps to docs
 if wrapped_heatmap_config:
     docs["Wrapped heatmaps"] = {
@@ -36,3 +35,24 @@ if wrapped_heatmap_config:
             for wrapped_hm in wrapped_heatmap_config
         },
     }
+
+rule cell_entry_scatters:
+    """Scatter plots of entry in different cells."""
+    input:
+        entry_csv="results/summaries/entry_all_cells.csv",
+        site_numbering_map=config["site_numbering_map"],
+    output:
+        corr_chart="results/cell_entry_scatters/cell_entry_scatter.html",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml")
+    log:
+        notebook="results/notebooks/cell_entry_scatters.ipynb",
+    notebook:
+        "notebooks/cell_entry_scatters.py.ipynb"
+
+# Add cell-entry scatters to docs
+docs["Cell entry scatters"] = {
+    "Comparison of mutation effects on entry in different cells": {
+        "Mutation effect scatter": rules.cell_entry_scatters.output.corr_chart,
+    },
+}
