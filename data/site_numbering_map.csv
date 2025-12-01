@@ -209,7 +209,7 @@ sequential_site,reference_site,sequential_wt,region,rbs_region,chain
 208,217,P,HA1,outside RBS,A
 209,218,G,HA1,outside RBS,A
 210,219,A,HA1,outside RBS,A
-211,220,R,HA1,outside RBS,A
+211,220,R,HA1,RBS 220-loop,A
 212,221,P,HA1,RBS 220-loop,A
 213,222,Q,HA1,RBS 220-loop,A
 214,223,V,HA1,RBS 220-loop,A
