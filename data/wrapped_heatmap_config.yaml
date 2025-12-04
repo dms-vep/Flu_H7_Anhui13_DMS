@@ -1,9 +1,9 @@
 H7_Anhui13_293_mix:
-  data_csv: results/summaries/entry_all_cells.csv
+  data_csv: results/func_effects/averages/293_mix_entry_func_effects.csv
   title: "Effect of mutations to H7 influenza HA on entry into a mix of cells expressing a2-3 and a2-6 sialic acid"
-  effect_col: "entry in mix of a23 and a26 cells"
-  data_query_str: ""
-  sites_per_row: 103
+  effect_col: "effect"
+  data_query_str: "times_seen >= 2 and (n_selections / 4) >= 0.75 and effect_std <= 2"
+  sites_per_row: 120
   site_label_freq: 5
   site_label_start: 5  # start labeling at this site
   color_scheme: redblue
