@@ -1,5 +1,5 @@
-# Pseudovirus deep mutational scanning of the hemagglutinin from the influenza strain A/Anhui/1/013 (H7N9)
-Study by Jenny Ahn in the [Bloom lab](https://jbloomlab.org/).
+# Pseudovirus deep mutational scanning of the hemagglutinin from the influenza strain A/Anhui/1/2013 (H7N9)
+Study led by Jenny Ahn in the [Bloom lab](https://jbloomlab.org/).
 
 ## Organization of this repo
 
@@ -45,6 +45,6 @@ To run the pipeline, build the conda environment `dms-vep-pipeline-3` in the `en
     conda activate dms-vep-pipeline-3
     snakemake -j 32 --software-deployment-method conda -s dms-vep-pipeline-3/Snakefile
 
-To run on the Hutch cluster via [slurm](https://slurm.schedmd.com/), you can run the file [run_Hutch_cluster.bash](run_Hutch_cluster.bash):
+To run on the Hutch cluster via [slurm](https://slurm.schedmd.com/), you can run the file [run_hutch_cluster.bash](run_hutch_cluster.bash):
 
-    sbatch -c 32 run_Hutch_cluster.bash
+    sbatch -c 32 run_hutch_cluster.bash
