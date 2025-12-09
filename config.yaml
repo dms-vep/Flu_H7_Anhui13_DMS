@@ -25,6 +25,9 @@ description: Pseudovirus deep mutational scanning of influenza HA from the H7 st
 year: 2025
 authors: Jenny Ahn and [Jesse Bloom](https://jbloomlab.org/)
 
+# Build a nice styled VitePress homepage
+build_vitepress_homepage: true
+
 # ----------------------------------------------------------------------------
 # Site numbering, mutation classification, and neut standards
 # ----------------------------------------------------------------------------
