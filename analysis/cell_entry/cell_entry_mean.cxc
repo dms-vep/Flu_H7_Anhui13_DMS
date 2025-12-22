@@ -21,8 +21,6 @@ dssp
 # show surface
 surface 
 
-
-
 # Set helix style to wrap (ribbons) for ALL chains
 # width controls ribbon width, thick controls ribbon thickness
 # arrowScale controls strand arrow size

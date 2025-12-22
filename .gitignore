@@ -4,6 +4,9 @@ _*
 
 !.git*
 
+!analysis
+analysis/2_6_entry/*
+
 results/*
 
 !results/gene_sequence
