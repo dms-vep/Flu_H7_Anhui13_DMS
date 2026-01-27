@@ -13,6 +13,7 @@ features:
 
 ## Overview
 This website provides interactive visualizations and raw data about the effects of mutations to the hemagglutinin protein of the H7 influenza strain A/Anhui/1/2013.
+See [Ahn, Yu, et al (2026)](https://doi.org/10.64898/2026.01.05.697808) for study details.
 
 Because the dataset is so rich, the intereactive visualizations here are generally a better way to explore the data then the static figures in the paper.
 Specifically, see the [Cell Entry](cell_entry) page for measurements of how H7 HA mutations affect its ability to mediate entry into cells expressing different sialic acid linkages.

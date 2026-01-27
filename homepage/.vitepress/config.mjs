@@ -16,7 +16,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/dms-vep/Flu_H7_Anhui13_DMS" }],
     footer: {
-      message: 'Jenny Ahn et al in the <a href="https://jbloomlab.org/">Bloom lab</a>',
+      message: '<a href="https://doi.org/10.64898/2026.01.05.697808">Ahn, Yu, et al (2026)</a>',
     },
   },
 });

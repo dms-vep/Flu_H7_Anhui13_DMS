@@ -1,5 +1,6 @@
 # Pseudovirus deep mutational scanning of the hemagglutinin from the influenza strain A/Anhui/1/2013 (H7N9)
 Study led by Jenny Ahn in the [Bloom lab](https://jbloomlab.org/).
+See [Ahn et al (2026)](https://doi.org/10.64898/2026.01.05.697808) for study details.
 
 ## Organization of this repo
 
